@@ -33,20 +33,34 @@
             color: #717171;
         }
 
-        .nav {
-            background-color: #fff9ebae;
+        .navbar {
+            background-color: #ffffff00;
+            overflow: hidden;
+            transition: 0.5s;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
         }
 
-        .nav a {
-            font-family: 'Roboto Mono', monospace;
-            color: #3B3638;
-            letter-spacing: -.5px;
-            font-size: 12px;
-        }
-
-        .nav a:hover {
+        .navbar a {
             color: #FE9A1C;
+            text-decoration: none;
+            padding: 14px 16px;
+            display: inline-block;
+            font-size: 13px;
+        }
+
+        .navbar a:hover {
+            color: #3B3638;
+        }
+
+        .navbar .toggle-btn {
+            display: none;
             cursor: pointer;
+            font-size: 20px;
+            line-height: 50px;
         }
 
         .merk {
@@ -132,10 +146,20 @@
         }
 
         @media (max-width: 500px) {
-            .nav a {
-                margin-top: 10px;
-                font-size: 10px;
-              }
+            .navbar a:not(:first-child) {
+                display: none;
+            }
+
+            .navbar a.icon {
+                float: right;
+                display: block;
+            }
+
+            .navbar.responsive a {
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
 
             .merk img {
                 max-width: 150px;
@@ -163,18 +187,12 @@
 <body>
    
     <!-- Navigation Bar -->
-    <nav class="nav">
-        <a class="nav-link active" aria-current="page" href="index2.html" target="_blank" title="vanessadvnci">Portfolio</a>
-        <a class="nav-link active" aria-current="page" href="http://www.instagram.com/mommi.tattoos" target="_blank" title="vanessadvnci">Instagram</a>
-        <a class="nav-link" href="https://mommi-tattoos444.as.me/" target="_blank" title="vanessadvnci">Book an Appointment</a>
-        <a class="nav-link active" aria-current="page" href="" target="_blank" title="vanessadvnci">Hire me?</a>
-    </nav>
-
-    <!-- Merkabah logo section -->
-    <div class="merk">
-        <div class="animate__bounce" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="0"><img src="img/3.png" class="responsive-img"></div>
-    <h3>vanessadvnci.io</h3>
-    <p>creative solutions</p>
+    <div class="navbar" id="myNavbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <div class="toggle-btn" onclick="toggleNav()">☰</div>
     </div>
 
     <!-- Greetings Section -->
@@ -213,7 +231,19 @@
         integrity="sha384-rHyoN1iRsVXV4nD9+8qepcvymHNYdpSb6V4p0YovPpUpy9jkF7Qfa1UdA2S7y1D"
         crossorigin="anonymous"></script>
 
-
+        <script> function toggleNav() {
+            var x = document.getElementById("myNavbar");
+            x.classList.toggle("responsive");
+            
+            // Check if the navbar is responsive, then toggle the display of the links
+            var links = x.getElementsByClassName("navbar")[0];
+            if (links.style.display === "block") {
+                links.style.display = "none";
+            } else {
+                links.style.display = "block";
+            }
+        }
+        </script>
         
 </body>
 </html>

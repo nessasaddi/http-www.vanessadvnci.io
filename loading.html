@@ -20,7 +20,19 @@ html, body {
   text-align: center;
 }
 
+body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #fff9ebae;
+        }
 
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
 h1 {
   margin: 0px;
@@ -28,7 +40,7 @@ h1 {
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
   font-size: 12px;
-  color: #DC50A1;
+  color: #FE9A1C;
   padding-top: 100px;
 }
 
@@ -109,6 +121,7 @@ body img {
     </style>
 </head>
 <body>
+  <div class="loading">
   <img src="img/1.png" class="responsive-img">
 <div class="body">
     <h1>
@@ -121,8 +134,19 @@ body img {
         <span class="let7">o n</span>
       </h1>
 </div>
+</div>
+<script>
+  // Function to redirect to the homepage after a certain duration
+  function redirectToHomepage() {
+      window.location.href = 'index.html'; // Replace 'your_homepage_url' with the actual URL of your homepage
+  }
 
+  // Set the duration (in milliseconds) for the loading page
+  var duration = 8000; // 3000 milliseconds = 3 seconds
 
+  // Wait for the specified duration and then redirect
+  setTimeout(redirectToHomepage, duration);
+</script>
 
 </body>
 </html>
