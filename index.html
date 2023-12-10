@@ -41,13 +41,19 @@
             color: #3B3638;
             letter-spacing: -1px;
             font-weight: 500;
-            animation: fadeIn .5s;
+            animation: fadeIn .5s ease-in;
         }
         .body p {
             font-family: 'Roboto Mono', monospace;
             font-size: 12px;
-            animation: bounceInUp 1s;
-            margin-top: -10px;
+            animation: tada 1s ease-in;
+            margin-top: -5px;
+            margin-bottom: 50px;
+        }
+
+        .loader {
+            animation: fadeIn 3s ease-in;
+
         }
         @media (max-width: 500px) {
 
@@ -79,15 +85,22 @@
 <p>creative solutions</p>
 </div>
 
+<div class="loader">
+<div class="d-flex justify-content-center">
+    <div class="spinner-border spinner-border-sm" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+</div>
+
 <script>
-  // Function to redirect to the homepage after a certain duration
-  function redirectToHomepage() {
-      window.location.href = 'home.html';
-  }
+    // Function to redirect to the homepage after a certain duration
+    function redirectToHomepage() {
+        window.location.href = 'home.html';
+    }
+    var duration = 4000;
+    setTimeout(redirectToHomepage, duration);
+  </script>
 
-  var duration = 4000;
-
-  setTimeout(redirectToHomepage, duration);
-</script>
 </body>
 </html>
