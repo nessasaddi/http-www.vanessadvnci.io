@@ -1,83 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanessa's Portfolio</title>
+    <title>Homepage, for now...</title>
 
-    <!-- Add animate.css for animations -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+ <!-- Add animate.css for animations -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+ <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
-      <!-- micron.js -->
-    <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
-    <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+   <!-- micron.js -->
+ <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+ <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
 
     <style>
-        body {
-            background-color: #ffffff00;
-            font-family: 'Roboto Mono', monospace;
-        }
-
-        p {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 13px;
-            color: #717171;
-        }
-
-        .navbar {
-            background-color: #ffffff00;
-            overflow: hidden;
-            transition: 0.5s;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 20px;
-        }
-
-        .navbar a {
-            color: #FE9A1C;
-            text-decoration: none;
-            padding: 14px 16px;
-            display: inline-block;
-            font-size: 13px;
-        }
-
-        .navbar a:hover {
-            color: #3B3638;
-        }
-
-        .navbar .toggle-btn {
-            display: none;
-            cursor: pointer;
-            font-size: 20px;
-            line-height: 50px;
-        }
-
-        .merk {
-            background-color: #fff9ebae;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+       body {
+            height: 100%;
+            width: 100%;
+            background: #fff9ebae;
+            text-align: center;
         }
 
         .merk img {
+            max-width: 400px;
+            margin-top: 250px;
             max-width: 200px;
             animation: fadeIn .4s;
         }
 
-        .merk h3 {
+        .body h3 {
             font-family: 'DM Sans', sans-serif;
             font-size: 30px;
             color: #3B3638;
@@ -85,66 +43,12 @@
             font-weight: 500;
             animation: fadeIn .5s;
         }
-        .merk p {
+        .body p {
+            font-family: 'Roboto Mono', monospace;
             font-size: 12px;
             animation: bounceInUp 1s;
             margin-top: -10px;
         }
-
-        .greetings {
-            background: linear-gradient(to bottom, #fff9ebae, white);
-            padding: 100px;
-        }
-
-        .greetings h1 {
-            font-family: 'DM Sans', sans-serif;
-            font-size: 40px;
-            letter-spacing: -2px;
-            color: #3B3638;
-            text-align: left;
-        }
-
-        .greetings a{
-            text-decoration: none;
-            color:#FE9A1C;
-        }
-
-         h1 {
-            font-family: 'DM Sans', sans-serif;
-            font-size: 40px;
-            letter-spacing: -2px;
-            color: #3B3638;
-        }
-
-        .frontenddev {
-            padding: 100px;
-        }
-
-        .frontenddev h1 {
-            font-size: 30px;
-            font-weight: 600;
-            text-transform: capitalize;
-        }
-        .frontenddev a{
-            text-decoration: none;
-            color:#FE9A1C;
-        }
-        
-        .frontenddev img {
-            border-radius: 10px;
-        }
-
-        .frontenddev h2 {
-            font-size: 10px;
-            padding: 100px -20px 100px 0px;
-        }
-
-        .responsive-img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-        }
-
         @media (max-width: 500px) {
 
             .merk img {
@@ -164,58 +68,29 @@
                 font-size: 10px;
                 padding: 30px -20px 30px 0px;
             }
-}
-
-
+            }
     </style>
 </head>
-
 <body>
-   
-    <!-- Navigation Bar -->
-    <div class="navbar" id="myNavbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-        <div class="toggle-btn" onclick="toggleNav()">☰</div>
-    </div>
+  
 
-    <!-- Greetings Section -->
-    <div class="greetings">
-        <h1 class="wow animate__bounceInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="30">
-                Greetings! My name is Vanessa and I am a digital creator (& tattoo artist 🌚). I am a certified front-end developer and well versed in creating marketing materials. I also love to do 3D designs.
-        </h1>
-        <p><a href="aboutme.html">read more about me >></p></a>
-    </div>
+  
+<div class="body">
+  <div class="merk">
+    <img src="img/3.png"></div>
+<h3>vanessadvnci.io</h3>
+<p>creative solutions</p>
+</div>
 
-    <!-- Frontend Dev Section -->
-    <div class="frontenddev">
-        <h1>Front-end Development</h1>
-        <p>I earned certificates in Advanced Web Development, dedicating months to mastering HTML, CSS, JavaScript, VSCode, APIs, GitHub, Bootstrap, hosting, Flexbox, terminals, Grids, SEO, NPM, Responsive design, fonts, and React.<br>
-        <a href="portfolio.html">Check out my portfolio >></a>
-        </p>
+<script>
+  // Function to redirect to the homepage after a certain duration
+  function redirectToHomepage() {
+      window.location.href = 'home.html';
+  }
 
-        <div class="container text-center">
-            <div class="row">
-              <div class="col-sm"><img src="img/globaltimepieceipad.png" class="responsive-img"></div>
-              <div class="col-sm"><img src="img/globaltimepieceipad.png" class="responsive-img"></div>
-                
-                
-                <h2>These websites are built using APIs, enabling real-time data integration. All my projects are open-sourced codes on GitHub</h2></div>
-    </div>
+  var duration = 4000;
 
-
-    
-    <!-- Wow.js Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-rHyoN1iRsVXV4nD9+8qepcvymHNYdpSb6V4p0YovPpUpy9jkF7Qfa1UdA2S7y1D"
-        crossorigin="anonymous"></script>
-        
+  setTimeout(redirectToHomepage, duration);
+</script>
 </body>
 </html>
