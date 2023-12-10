@@ -124,6 +124,46 @@
             max-width: 100%;
             height: auto;
         }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style the trigger/link */
+        .dropdown-link {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            display: block;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            margin-left: 75px;
+            padding: 75px;
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Style the dropdown links */
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown content when the dropdown link is hovered over */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
         @media (max-width: 700px) {
             h1 {
@@ -165,8 +205,12 @@
     <!-- Portfolio Section -->
     <div class="portfoliomenu">
         <h1 class="wow animate__bounceInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="30">
-            <a href="portfolio.html">Front End Development</a>
-        </h1>
+        <div class="dropdown">
+            <a class="dropdown-link" href="portfolio.html">Front End Development</a>
+            <div class="dropdown-content">
+                asdasdasdasd
+            </div>
+        </div>   </h1>
         <h1 class="wow animate__bounceInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="175">
             <a href="portfolio.html">3D Design</a>
         </h1>
