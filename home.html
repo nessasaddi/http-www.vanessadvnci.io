@@ -107,21 +107,14 @@
         }
         .icons {
             display: flex;
-            overflow: hidden;
-        }   
-        @keyframes scrollIcons {
-            0% {
-                transform: translateX(0);
-            }
-            50% {
-                transform: translateX(calc(-100% - 10px));
-            }
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 30px;
         }
 
         .icons img {
             max-width: 35px;
-            margin: 0 10px;
-            animation: scrollIcons 3s linear infinite alternate;
+            padding: 2px;
         }
 
         .responsive-img {
@@ -176,31 +169,32 @@
     </div>
 
     <!-- Frontend Dev Section -->
-    <div class="icons">
-        <img src="img-icons/ai.png">
-        <img src="img-icons/api.png">
-        <img src="img-icons/bootstrap.png">
-        <img src="img-icons/css.png">
-        <img src="img-icons/editor.png">
-        <img src="img-icons/flexbox.png">
-        <img src="img-icons/github.png">
-        <img src="img-icons/hosting.png">
-        <img src="img-icons/html.png">
-        <img src="img-icons/javascript.png">
-        <img src="img-icons/React-icon.svg.png">
-        <img src="img-icons/responsive.png">
-        <img src="img-icons/seo.png">
-    </div>
 
     <div class="frontenddev" id="frontenddev">
         <h1>Front-end Development</h1>
         <p>I earned certificates in Advanced Web Development, dedicating months to mastering HTML, CSS, JavaScript, VSCode, APIs, GitHub, Bootstrap, hosting, Flexbox, terminals, Grids, SEO, NPM, Responsive design, fonts, and React.<br>
         </p>
 
+        <div class="icons">
+            <img src="img-icons/ai.png">
+            <img src="img-icons/api.png">
+            <img src="img-icons/bootstrap.png">
+            <img src="img-icons/css.png">
+            <img src="img-icons/editor.png">
+            <img src="img-icons/flexbox.png">
+            <img src="img-icons/github.png">
+            <img src="img-icons/hosting.png">
+            <img src="img-icons/html.png">
+            <img src="img-icons/javascript.png">
+            <img src="img-icons/React-icon.svg.png">
+            <img src="img-icons/responsive.png">
+            <img src="img-icons/seo.png">
+        </div>
+
         <img src="img/globaltimepieceipad.png" class="responsive-img">
-            <h2>These websites are built using APIs, enabling real-time data integration. All my projects are open-sourced codes on GitHub</h2></div>
-    </div>
-</div>
+            <h2>These websites are built using APIs, enabling real-time data integration. All my projects are open-sourced codes on GitHub</h2>
+        </div>
+
 
     
     <!-- Wow.js Script -->
