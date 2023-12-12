@@ -1,0 +1,162 @@
+body {
+    background-color: #fff9ebae;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: #3B3638;
+}
+.navbar {
+    overflow: hidden;
+    transition: 0.5s;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: white;
+}
+
+.navbar a {
+    color: #FE9A1C;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.navbar a:hover {
+    color: #3B3638;
+}
+
+.greetings {
+    background: #fff9ebae;
+    padding: 100px;
+    padding-bottom: 50px;
+    animation: fadeIn .5s ease-in;
+}
+
+.greetings h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #3B3638;
+    text-align: left;
+    
+}
+
+.greetings a{
+    text-decoration: none;
+    color:#FE9A1C;
+}
+
+ h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #3B3638;
+}
+
+.frontenddev {
+    background: linear-gradient(to bottom, #fff9ebae, white);
+    padding: 100px;
+}
+
+.frontenddev h1 {
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.frontenddev img {
+    border-radius: 10px;
+    border: 1px solid #e414a670;
+}
+
+.frontenddev h2 {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.frontenddev a {
+    color: #FE9A1C;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.responsive-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.booktattoo {
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #FE9A1C;
+    margin-top: 200px;
+}
+.booktattoo h1 {
+    padding: 20px;
+}
+.footer-content {
+    display: flex;
+    margin: 100px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #e414a670;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    animation: bounceInUp 2s ease-in;
+}
+
+.footer-content h3 {
+    font-family: 'DM Sans', sans-serif;
+    color: #3B3638;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.footer-content p, a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    text-decoration: none;
+    color: #3B3638;
+}
+
+.copyright {
+    padding: 50px;
+    text-align: center;
+    color: #FE9A1C;
+    animation: fadeIn .5s ease-in;
+}
+.copyright p{
+    color: #FE9A1C;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+
+@media (max-width: 500px) {
+
+    .merk img {
+        max-width: 150px;
+    }
+    .greetings {
+        padding: 30px;
+        padding-bottom: 200px;
+    }
+    .greetings h1 {
+        font-size: 35px;
+    }
+    .frontenddev {
+        padding: 30px;
+    }
+
+    .frontenddev h2 {
+        font-size: 10px;
+        padding: 30px -20px 30px 0px;
+    }
+}
