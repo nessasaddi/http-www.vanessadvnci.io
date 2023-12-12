@@ -1,5 +1,5 @@
 body {
-    background-color: #fff9ebae;
+    background-color: #ffffffae;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -35,7 +35,7 @@ p {
     background: #fff9ebae;
     padding: 100px;
     padding-bottom: 50px;
-    animation: fadeIn .5s ease-in;
+    
 }
 
 .greetings h1 {
@@ -44,12 +44,14 @@ p {
     letter-spacing: -2px;
     color: #3B3638;
     text-align: left;
+    animation: fadeIn .5s ease-in;
     
 }
 
 .greetings a{
     text-decoration: none;
     color:#FE9A1C;
+    animation: fadeIn .5s ease-in;
 }
 
  h1 {
