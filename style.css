@@ -83,21 +83,32 @@ p {
     font-size: 11px;
     margin-bottom: 20px;
 }
+
 .projects a {
     color: #FE9A1C;
     font-size: 11px;
     margin-bottom: 20px;
 }
+
 .frontend {
     background-color: #9CBD3F;
     padding: 100px;
 }
+
 .frontend h1{
     font-weight: 600;
 }
+
+.frontend a{
+    color: #ffe1bb;
+    text-decoration: none;
+    cursor: help;
+}
+
 .icons img {
     max-width: 40px;
 }
+
 .icons h4 {
     font-size: 10px;
     text-align: center;
@@ -108,17 +119,20 @@ p {
     max-width: 100%;
     height: auto;
 }
+
 .booktattoo {
     display: block;
     border-radius: 10px;
     border: 2px solid #FE9A1C;
     margin-top: 200px;
 }
+
 .booktattoo h1 {
     padding: 20px;
 }
 
 .footer-content {
+    max-width: 600px;
     display: block;
     margin: 100px;
     padding: 20px;
@@ -135,6 +149,7 @@ p {
     font-weight: 600;
     letter-spacing: -1px;
 }
+
 .footer-content p {
     font-family: 'Roboto Mono', monospace;
     font-size: 13px;
