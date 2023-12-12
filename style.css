@@ -124,7 +124,7 @@ p {
     background-color: #fff9ebae;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+    animation: fadeInUp .5s ease-in;
 }
 
 .footer-content h3 {
@@ -171,7 +171,7 @@ input {
 
 .indicates-required {
     color: #E61D1C;
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 10px;
 }
 
