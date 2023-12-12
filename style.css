@@ -120,21 +120,11 @@ p {
     height: auto;
 }
 
-.booktattoo {
-    display: block;
-    border-radius: 10px;
-    border: 2px solid #FE9A1C;
-    margin-top: 200px;
-}
-
-.booktattoo h1 {
-    padding: 20px;
-}
-
 .footer-content {
     max-width: 600px;
     display: block;
     margin: 100px;
+    margin-bottom: 20px;
     padding: 20px;
     background-color: #fff9ebae;
     border-radius: 10px;
