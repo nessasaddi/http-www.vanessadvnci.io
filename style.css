@@ -124,7 +124,7 @@ p {
     background-color: #fff9ebae;
     border: 1px solid #e414a6a7;
     border-radius: 10px;
-    animation: bounceInUp 2s ease-in;
+    animation: fadeInUp .2s ease-in;
 }
 
 .footer-content h3 {
