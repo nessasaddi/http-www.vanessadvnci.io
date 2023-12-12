@@ -175,7 +175,10 @@ p {
         padding: 30px -20px 30px 0px;
     }
     .frontend {
-        padding: 35px;
+        padding: 40px;
+    }
+    .frontend h1 {
+        font-size: 35px;
     }
     .footer-content {
         margin: 30px;
