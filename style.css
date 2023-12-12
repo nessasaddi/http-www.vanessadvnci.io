@@ -50,7 +50,7 @@ p {
 
 .greetings a{
     text-decoration: none;
-    color:#FE9A1C;
+    color:#e414a6a7;
     animation: fadeIn .5s ease-in;
 }
 
@@ -76,7 +76,7 @@ p {
 
 .frontenddev img {
     border-radius: 10px;
-    border: 1px solid #e414a670;
+    border: 1px solid #e414a6a7;
 }
 
 .frontenddev h2 {
@@ -108,8 +108,8 @@ p {
     margin: 100px;
     margin-bottom: 10px;
     padding: 20px;
-    background-color: #e414a670;
-    border: 2px solid rgb(255, 255, 255);
+    background-color: #fff9ebae;
+    border: 2px solid #e414a6a7;
     border-radius: 10px;
     animation: bounceInUp 2s ease-in;
 }
