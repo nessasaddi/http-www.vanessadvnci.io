@@ -146,6 +146,7 @@ p {
     }
     .greetings {
         padding: 30px;
+        padding-top: 100px;
         padding-bottom: 200px;
     }
     .greetings h1 {
@@ -161,6 +162,5 @@ p {
     }
     .footer-content {
         margin: 30px;
-
     }
 }
