@@ -257,4 +257,7 @@ input {
     .footer-content {
         margin: 35px;
     }
+    .copyright {
+        padding: 30px;
+    }
 }
