@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffffae;
+    background: linear-gradient(to bottom, #fff9ebae, white);
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -10,11 +10,11 @@ p {
 }
 
 .greetings {
-    background: #fff9ebae;
+    background: transparent;
     padding: 100px;
     padding-bottom: 50px;
-    max-width: 1200px;
-    display: block;
+    max-width: 1000px;
+    margin: auto;
  
 }
 
@@ -43,8 +43,10 @@ p {
 }
 
 .projects {
-    background: linear-gradient(to bottom, #fff9ebae, white);
+    background: transparent;
     padding: 100px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .projects h1 {
@@ -71,9 +73,19 @@ p {
     margin-bottom: 20px;
 }
 
-.frontend {
+.frontendwrapper {
     background-color: #9CBD3F;
-    padding: 100px;
+    max-width: 1200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.frontend {
+    background: transparent;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .frontend h1{
@@ -102,12 +114,15 @@ p {
 }
 
 .footer-content {
+    background-color: #fff9ebae;
+    padding: 20px;
     max-width: 600px;
     display: block;
-    margin: 100px;
+    margin: auto;
+    margin-top: 50px;
     margin-bottom: 20px;
-    padding: 20px;
-    background-color: #fff9ebae;
+    margin-left: 75px;
+    margin-right: 75px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: fadeInUp .5s ease-in;
