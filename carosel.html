@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+    .box-scroller-wrapper {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.box-link {
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.box-link img{
+    max-width: 300px;
+}
+
+.box-inner {
+    display: block;
+    text-align: center;
+}
+
+/* Optional: Add a transition effect */
+.transition {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Optional: Add a fade-in effect */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+</style>
+</head>
+<body>
+    <div class="box-scroller-wrapper fade-in">
+        <div class="box-link">
+<a class="box-inner transition" href=/about/>
+<img src="https://manner.co/wp-content/uploads/2023/08/Manner_Spot-3-scaled.jpg" alt="">
+<p>About</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=/people>
+<img src="https://manner.co/wp-content/uploads/2023/07/High-Res_Overview_Manner-Team-Portraits_Anna_Meylakh_38504-2-3-scaled.jpg" alt="">
+<p>People</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=/projects>
+<img src="https://manner.co/wp-content/uploads/2023/08/Manner_Spot-2-scaled.jpg" alt="">
+<p>Projects</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=/news>
+<img src="https://manner.co/wp-content/uploads/2023/08/SH.png" alt="">
+<p>News</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=https://manner.co/contact/>
+<img src="https://manner.co/wp-content/uploads/2023/08/TheStoreHouse-copy.jpg" alt="">
+<p>Contact</p>
+</a>
+</div>
+
+        <div class="box-link">
+<a class="box-inner transition" href=/about/>
+<img src="https://manner.co/wp-content/uploads/2023/08/Manner_Spot-3-scaled.jpg" alt="">
+<p>About</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=/people>
+<img src="https://manner.co/wp-content/uploads/2023/07/High-Res_Overview_Manner-Team-Portraits_Anna_Meylakh_38504-2-3-scaled.jpg" alt="">
+<p>People</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=/projects>
+<img src="https://manner.co/wp-content/uploads/2023/08/Manner_Spot-2-scaled.jpg" alt="">
+<p>Projects</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=/news>
+<img src="https://manner.co/wp-content/uploads/2023/08/SH.png" alt="">
+<p>News</p>
+</a>
+</div>
+        <div class="box-link">
+<a class="box-inner transition" href=https://manner.co/contact/>
+<img src="https://manner.co/wp-content/uploads/2023/08/TheStoreHouse-copy.jpg" alt="">
+<p>Contact</p>
+</a>
+</div>
+</div>
+
+
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Your Brand</a>
+    
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+</html>

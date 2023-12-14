@@ -9,19 +9,58 @@ p {
     color: #3B3638;
 }
 
-.navbar {
+.merk {
     margin: auto;
     position: relative;
     display: inline-block;
 }
 
-.navbar img {
+.merk img {
     max-width: 100px;
     margin-left: 30px;
     margin-top: 30px;
     animation: swing 1s ease-in;
     cursor: help;
 }
+
+/* Set background color for the navbar */
+.navbar {
+    background-color: #fff9ebae;
+  }
+  
+  /* Style the navbar brand link */
+  .navbar-brand {
+    color: #3B3638;
+    font-weight: bold;
+  }
+  
+  /* Style the navbar toggler icon */
+  .navbar-toggler-icon {
+    background-color: #fff9ebae; /* Icon color */
+  }
+  
+  /* Style the navigation links */
+  .navbar-nav .nav-link {
+    color: #3B3638; /* Text color */
+    margin-right: 10px; /* Adjust spacing between links */
+  }
+  
+  /* Style the active link */
+  .navbar-nav .nav-item.active .nav-link {
+    background-color: #3B3638; /* Active link background color */
+  }
+  
+  /* Style the navbar text */
+  .navbar-text {
+    color: #3B3638; /* Text color */
+  }
+  
+  /* Optional: Add a hover effect to the links */
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #3B3638; /* Hover color */
+  }
+  
 
 .greetings {
     background: transparent;
