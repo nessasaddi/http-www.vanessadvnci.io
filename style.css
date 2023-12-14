@@ -57,13 +57,13 @@ p {
     color: #3B3638;
     margin-left: 90px;
     margin-right: 10px;
-    font-size: 11px;
+    font-size: 13px;
   }
   
   .navbar-nav .nav-link:hover {
     text-decoration: none;
-    color: #FE9A1C; /* Hover color */
-    font-size: 11px;
+    color: #FE9A1C;
+    animation: jello .1s ease-in;
   }
 
 .navbar-toggler:hover img {
