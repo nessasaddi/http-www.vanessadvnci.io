@@ -17,30 +17,11 @@ p {
 
 .navbar img {
     max-width: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
     animation: swing 1s ease-in;
     cursor: help;
 }
-
-.navbar:hover .description {
-    display: block;
-}
-
-.description {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 10px;
-    display: none;
-    position: absolute;
-    top: 20%;
-    left: 110%;
-    background-color: rgb(255, 255, 255);
-    color: #3B3638;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-}
-
 
 .greetings {
     background: transparent;
