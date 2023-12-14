@@ -25,42 +25,46 @@ p {
 
 /* Set background color for the navbar */
 .navbar {
-    background-color: #fff9ebae;
+    background-color: transparent !important;
   }
   
-  /* Style the navbar brand link */
-  .navbar-brand {
-    color: #3B3638;
-    font-weight: bold;
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+      border: none;
+      outline: none;
+      box-shadow: none;
   }
-  
-  /* Style the navbar toggler icon */
-  .navbar-toggler-icon {
-    background-color: #fff9ebae; /* Icon color */
+
+  .navbar-toggler:hover {
+    border: none;
+    outline: none; 
+    box-shadow: none;
   }
-  
-  /* Style the navigation links */
+
+  .navbar-toggler img {
+    max-width: 75px;
+    padding: 0px;
+    margin: 20px;
+  }
+
   .navbar-nav .nav-link {
-    color: #3B3638; /* Text color */
-    margin-right: 10px; /* Adjust spacing between links */
+    color: #3B3638;
+    margin-left: 45px;
+    margin-right: 10px;
+    font-size: 11px;
+    text-align: center;
   }
   
-  /* Style the active link */
-  .navbar-nav .nav-item.active .nav-link {
-    background-color: #3B3638; /* Active link background color */
-  }
-  
-  /* Style the navbar text */
-  .navbar-text {
-    color: #3B3638; /* Text color */
-  }
-  
-  /* Optional: Add a hover effect to the links */
   .navbar-nav .nav-link:hover {
-    text-decoration: underline; /* Underline on hover */
-    color: #3B3638; /* Hover color */
+    text-decoration: none;
+    color: #FE9A1C; /* Hover color */
+    font-size: 11px;
   }
-  
+
+.navbar-toggler:hover img {
+    padding: 0;
+}
 
 .greetings {
     background: transparent;
@@ -296,9 +300,7 @@ input {
 @media (max-width: 500px) {
 
     .navbar img {
-        max-width: 120px;
-        margin-left: 25px;
-        margin-top: 35px;
+        display: none;
     }
     .navbar:hover .description {
         display: none;
