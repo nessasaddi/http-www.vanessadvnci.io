@@ -33,6 +33,7 @@ p {
     margin-left: 70px;
     margin-top: 30px;
     animation: swing 1s ease-in;
+    animation-delay: 2s;
     cursor: help;
   }
 
@@ -293,7 +294,6 @@ input {
         margin-left: 0px;
         margin-top: 50px;
         margin-bottom: 20px;
-        animation: swing 1s ease-in;
       }
 
     .navbar-nav .nav-link {
