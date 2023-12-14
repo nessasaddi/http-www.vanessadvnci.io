@@ -299,10 +299,10 @@ input {
 @media (max-width: 500px) {
     .merk {
         margin-left: 30px;
-        position: absolute;
+        position: relative;
     }
+
       .navbar-nav .nav-link {
-        margin: 50px;
         margin-left: 27px;
         font-size: 13px;
       }
