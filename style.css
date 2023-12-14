@@ -302,13 +302,7 @@ input {
 
 
 @media (max-width: 500px) {
-
-    .navbar img {
-        display: none;
-    }
-    .navbar:hover .description {
-        display: none;
-    }
+    
     .greetings {
         padding: 30px;
         padding-top: 60px;
