@@ -275,8 +275,12 @@ input {
 
 @media (max-width: 500px) {
 
-    .merk img {
-        max-width: 150px;
+    .navbar img {
+        max-width: 100px;
+        margin-left: 25px;
+        margin-top: 30px;
+        animation: swing 1s ease-in;
+        cursor: help;
     }
     .greetings {
         padding: 30px;
