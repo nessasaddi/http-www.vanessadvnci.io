@@ -306,7 +306,7 @@ input {
     .navbar-toggler img {
         max-width: 75px;
         padding: 0px;
-        margin: 20px;
+        margin-left: 30px;
       }
 
       .navbar-nav .nav-link {
