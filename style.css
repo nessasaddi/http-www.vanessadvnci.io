@@ -9,9 +9,44 @@ p {
     color: #3B3638;
 }
 
+.navbar {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar img {
+    max-width: 100px;
+    margin-left: 25px;
+    margin-top: 20px;
+    animation: swing 1s ease-in;
+    cursor: help;
+}
+
+.navbar:hover .description {
+    display: block;
+}
+
+.description {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 110%;
+    background-color: rgb(255, 255, 255);
+    color: #3B3638;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+
 .greetings {
     background: transparent;
-    padding: 100px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 50px;
     max-width: 1000px;
     margin: auto;
@@ -142,7 +177,7 @@ p {
     margin-bottom: 20px;
     margin-left: 75px;
     margin-right: 75px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: fadeInUp .5s ease-in;
 }
