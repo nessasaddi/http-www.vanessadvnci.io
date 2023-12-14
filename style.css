@@ -34,6 +34,11 @@ p {
       border: none;
       outline: none;
       box-shadow: none;
+      transition: transform 0.3s ease-in-out;
+  }
+
+  .tilt {
+    transform-origin: center bottom;
   }
 
   .navbar-toggler:hover {
@@ -50,10 +55,9 @@ p {
 
   .navbar-nav .nav-link {
     color: #3B3638;
-    margin-left: 45px;
+    margin-left: 100px;
     margin-right: 10px;
     font-size: 11px;
-    text-align: center;
   }
   
   .navbar-nav .nav-link:hover {
