@@ -343,6 +343,7 @@ input {
     }
     .frontend h1 {
         font-size: 28px;
+        margin-bottom: 5px;
     }
     .footer-content {
         margin: 35px;
