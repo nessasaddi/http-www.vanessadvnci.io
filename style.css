@@ -1,10 +1,10 @@
 body {
     background: linear-gradient(to bottom, #fff9ebae, #ffffff);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Palanquin', sans-serif;
 }
 
 p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Palanquin', sans-serif;
     font-size: 13px;
     color: #3B3638;
 }
@@ -44,7 +44,7 @@ p {
     animation: pulse .3s ease-in;
   }
 
-  .navbar-nav .nav-link {
+  .nav-link {
     color: #3B3638;
     margin-left: 90px;
     margin-right: 10px;
@@ -79,10 +79,12 @@ p {
 }
 
 .greetings a{
-    text-decoration: none;
     font-size: 12px;
     color:#e414a6a7;
     animation: fadeIn .5s ease-in;
+}
+.greetings p {
+    padding-top: 10px;
 }
 
  h1 {
@@ -113,13 +115,14 @@ p {
 }
 
 .projects h2 {
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 18px;
     margin-bottom: 20px;
 }
 
 .projects a {
     color: #FE9A1C;
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
@@ -206,14 +209,14 @@ p {
 }
 
 .footer-content p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Palanquin', sans-serif;
     font-size: 13px;
     text-decoration: none;
     color: #3B3638;
 }
 
 #mc_embed_shell {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Palanquin', sans-serif;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff9ebae;
