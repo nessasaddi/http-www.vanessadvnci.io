@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #fff9ebae, white);
+    background: linear-gradient(to bottom, #fff9ebae, #ffffff);
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -75,11 +75,9 @@ p {
 
 .frontendwrapper {
     background-color: #9CBD3F;
-    max-width: 1200px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    max-width: 2000px;
+    padding: 100px;
+    margin: auto;
 }
 
 .frontend {
@@ -90,21 +88,42 @@ p {
 
 .frontend h1{
     font-weight: 600;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.frontend p{
+    max-width: 1000px;
+    margin: auto;
 }
 
 .frontend a{
-    color: #ffe1bb;
     text-decoration: none;
     cursor: help;
+    color: #3B3638;
 }
+
+.frontend button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 13px;
+    text-align: center;
+    cursor: help;
+    background-color: #fff9ebae;
+    border-radius: 20px; 
+    border: 0px;
+    animation: tada 1s ease-in;
+    animation-delay: 2s;
+}
+
+.frontend button:hover {
+    background-color: #fff9ebae;
+    color: #fff;
+}
+
 
 .icons img {
     max-width: 40px;
-}
-
-.icons h4 {
-    font-size: 10px;
-    text-align: center;
 }
 
 .responsive-img {
