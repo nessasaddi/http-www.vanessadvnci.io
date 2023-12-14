@@ -297,12 +297,11 @@ input {
 
 
 @media (max-width: 500px) {
-
-    .navbar img {
-        max-width: 75px;
-        padding: 0px;
+    .merk {
         margin-left: 30px;
-      }
+        position: relative;
+        display: inline-block;
+    }
 
       .navbar-nav .nav-link {
         margin-left: 27px;
