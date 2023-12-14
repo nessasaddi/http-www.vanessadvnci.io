@@ -15,14 +15,6 @@ p {
     display: inline-block;
 }
 
-.merk img {
-    max-width: 100px;
-    margin-left: 75px;
-    margin-top: 30px;
-    animation: swing 1s ease-in;
-    cursor: help;
-}
-
 .navbar {
     background-color: transparent !important;
   }
@@ -36,16 +28,19 @@ p {
   }
 
   .navbar-toggler img {
-    max-width: 75px;
+    max-width: 100px;
     padding: 0px;
-    margin: 70px;
+    margin-left: 75px;
+    margin-top: 30px;
+    animation: swing 1s ease-in;
+    cursor: help;
   }
 
   .navbar-toggler:hover {
     border: none;
     outline: none; 
     box-shadow: none;
-    animation: swing 1s ease-in;
+    animation: pulse .3s ease-in;
   }
 
   .navbar-nav .nav-link {
@@ -292,6 +287,14 @@ input {
 
 
 @media (max-width: 500px) {
+    .navbar-toggler img {
+        max-width: 100px;
+        padding: 0px;
+        margin-left: 75px;
+        margin-top: 30px;
+        animation: swing 1s ease-in;
+        cursor: help;
+      }
 
     .navbar-nav .nav-link {
         margin-left: 27px;
