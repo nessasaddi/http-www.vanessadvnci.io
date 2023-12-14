@@ -276,9 +276,9 @@ input {
 @media (max-width: 500px) {
 
     .navbar img {
-        max-width: 100px;
+        max-width: 120px;
         margin-left: 25px;
-        margin-top: 30px;
+        margin-top: 35px;
         animation: swing 1s ease-in;
         cursor: help;
     }
