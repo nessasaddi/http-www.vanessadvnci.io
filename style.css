@@ -302,6 +302,7 @@ input {
         position: absolute;
     }
       .navbar-nav .nav-link {
+        margin: 50px;
         margin-left: 27px;
         font-size: 13px;
       }
