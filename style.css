@@ -23,7 +23,6 @@ p {
     cursor: help;
 }
 
-/* Set background color for the navbar */
 .navbar {
     background-color: transparent !important;
   }
@@ -34,11 +33,6 @@ p {
       border: none;
       outline: none;
       box-shadow: none;
-      transition: transform 0.3s ease-in-out;
-  }
-
-  .tilt {
-    transform-origin: center bottom;
   }
 
   .navbar-toggler img {
@@ -51,6 +45,7 @@ p {
     border: none;
     outline: none; 
     box-shadow: none;
+    animation: swing 1s ease-in;
   }
 
   .navbar-nav .nav-link {
