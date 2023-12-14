@@ -290,7 +290,7 @@ input {
 
     .navbar-toggler img {
         max-width: 100px;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: 30px;
         animation: swing 1s ease-in;
       }
