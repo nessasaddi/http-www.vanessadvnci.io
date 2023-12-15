@@ -389,7 +389,6 @@ input {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
     .frontend {
         background: transparent;
         max-width: 1000px;
@@ -409,6 +408,9 @@ input {
     #mc_embed_shell {
         margin: 0 auto;
         padding: 25px;
+    }
+    .quicklinks {
+        padding: 20px;
     }
     .copyright {
         padding: 30px;
