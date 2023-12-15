@@ -112,9 +112,9 @@ p {
 }
 
 .contactmetext p {
+    background-color: rgba(203, 203, 203, 0.616);
     border-radius: 15px;
     border: 1px solid white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
     padding: 10px;
     font-family: 'Palanquin', sans-serif;
     font-size: 12px;
@@ -123,7 +123,10 @@ p {
 
 .contactmetext p:hover {
     padding: 10px;
-    animation: pulse .2s ease-in;
+    animation: pulse .1s ease-in;
+}
+
+.col-md-6 {
 }
 
 .projects {
