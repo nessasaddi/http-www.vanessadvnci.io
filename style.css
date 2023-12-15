@@ -158,10 +158,9 @@ p {
 
 .frontend button {
     margin-top: 15px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 13px;
     text-align: center;
-    cursor: help;
     background-color: #ffffff;
     border-radius: 20px; 
     border: 0px;
@@ -175,6 +174,8 @@ p {
 
 .frontend button:hover {
     background-color: #fff9ebae;
+    animation: tada 1s ease-in;
+    cursor: help;
 }
 
 .icons img {
