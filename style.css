@@ -105,10 +105,13 @@ p {
 
 .contactmetext h1 {
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     letter-spacing: -1px;
     font-weight: 600;
     text-transform: capitalize;
+}
+.contactmetext h4 {
+    padding: 10px;
 }
 
 .contactmetext p {
