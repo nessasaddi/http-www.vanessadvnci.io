@@ -357,6 +357,14 @@ input {
     .greetings h1 {
         font-size: 35px;
     }
+
+    .contactmebox {
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        
+    }
     .projects {
         padding: 30px;
     }
