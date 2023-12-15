@@ -400,7 +400,15 @@ input {
         margin-bottom: 5px;
     }
     .footer-content {
-        margin: 35px;
+        padding: 30px;
+        margin: auto;
+    }
+    .goodbye {
+        padding: 5px;
+    }
+    #mc_embed_shell {
+        margin: 0 auto;
+        padding: 25px;
     }
     .copyright {
         padding: 30px;
