@@ -315,7 +315,7 @@ input {
 }
 
 .quicklinks {
-    padding: 100px;
+    padding: 50px;
     text-align: center;
     animation: fadeIn .5s ease-in;
 }
