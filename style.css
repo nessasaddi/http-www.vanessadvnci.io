@@ -110,7 +110,7 @@ p {
 }
 
 .projects img {
-    background-color: #e414a61c;
+    background-color: #dc9bc81c;
     border-radius: 10px;
 }
 
@@ -127,7 +127,7 @@ p {
 }
 
 .frontendwrapper {
-    background-color: #9CBD3F;
+    background-color: rgba(226, 226, 226, 0.771);
     max-width: 2000px;
     padding: 100px;
     margin: auto;
@@ -162,18 +162,20 @@ p {
     font-size: 13px;
     text-align: center;
     cursor: help;
-    background-color: #fff9ebae;
+    background-color: #ffffff;
     border-radius: 20px; 
     border: 0px;
     animation: tada 1s ease-in;
     animation-delay: 2s;
 }
 
-.frontend button:hover {
-    background-color: #fff9ebae;
-    color: #fff;
+.frontend button a {
+    color: #FE9A1C;
 }
 
+.frontend button:hover {
+    background-color: #fff9ebae;
+}
 
 .icons img {
     max-width: 40px;
