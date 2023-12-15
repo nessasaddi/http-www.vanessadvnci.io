@@ -94,6 +94,18 @@ p {
     color: #3B3638;
 }
 
+.contactme {
+    background-color: white;
+    border-radius: 20px;
+    margin: 75px auto;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    justify-content: center;
+}
+
+
 .projects {
     background: transparent;
     padding: 100px;
@@ -140,7 +152,7 @@ p {
 }
 
 .frontend h1{
-    font-weight: 600;
+    font-weight: 500;
     max-width: 1000px;
     margin: auto;
 }
@@ -200,7 +212,7 @@ p {
     margin-right: 75px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    animation: fadeInUp .5s ease-in;
+    animation: fadeIn 1s ease-in;
 }
 
 .footer-content h3 {
@@ -281,15 +293,31 @@ input {
     display: absolute;
 }
 
-.copyright {
-    padding: 50px;
+.quicklinks {
+    padding: 100px;
     text-align: center;
+    animation: fadeIn .5s ease-in;
+}
+
+.quicklinks a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #3B3638;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.quicklinks a:hover{
     color: #FE9A1C;
+}
+
+.copyright {
+    text-align: center;
     animation: fadeIn .5s ease-in;
 }
 .copyright p{
-    color: #FE9A1C;
-    letter-spacing: 2px;
+    color: #3B3638;
+    letter-spacing: 1px;
     font-size: 10px;
 }
 
