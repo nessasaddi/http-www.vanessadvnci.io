@@ -62,17 +62,17 @@ p {
 
 .greetings h1 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: -2px;
     color: #3B3638;
     text-align: left;
-    
 }
 
 .greetings a{
     font-size: 12px;
     color:#e414a6a7;
 }
+
 .greetings p {
     padding-top: 10px;
 }
@@ -100,7 +100,7 @@ p {
     border-radius: 20px;
     text-align: center;
     padding: 20px;
-    
+
 }
 
 .contactmetext h1 {
@@ -369,7 +369,7 @@ input {
         padding-bottom: 100px;
     }
     .greetings h1 {
-        font-size: 40px;
+        font-size: 55px;
     }
 
     .contactmebox {
