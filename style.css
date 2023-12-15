@@ -386,8 +386,8 @@ input {
     .frontendwrapper {
         padding-left: 35px;
         padding-right: 35px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     .frontend {
         background: transparent;
