@@ -350,9 +350,10 @@ input {
       }
 
     .greetings {
-        padding: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
         padding-top: 40px;
-        padding-bottom: 200px;
+        padding-bottom: 100px;
     }
     .greetings h1 {
         font-size: 35px;
