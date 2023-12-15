@@ -9,12 +9,6 @@ p {
     color: #3B3638;
 }
 
-.merk {
-    margin: auto;
-    position: relative;
-    display: inline-block;
-}
-
 .navbar {
     background-color: transparent !important;
   }
@@ -28,10 +22,10 @@ p {
   }
 
   .navbar-toggler img {
-    max-width: 75px;
+    max-width: 80px;
     padding: 0px;
-    margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 65px;
+    margin-top: 50px;
     animation: swing 1s ease-in;
     animation-delay: 2s;
     cursor: help;
@@ -59,10 +53,7 @@ p {
 
 .greetings {
     background: transparent;
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 15px;
+    padding: 100px;
     max-width: 1000px;
     margin: auto;
     animation: fadeIn .5s ease-in;
@@ -100,6 +91,7 @@ p {
     padding-bottom: 15px;
     max-width: 1000px;
     margin: auto;
+    animation: bounceInLeft 2s ease-in;
 }
 
 .contactmetext {
@@ -164,14 +156,13 @@ p {
 }
 
 .frontendwrapper {
-    background-color: rgba(226, 226, 226, 0.771);
-    max-width: 2000px;
+    background-color: #cccccc41;
     padding: 100px;
+    max-width: 1000px;
     margin: auto;
 }
 
 .frontend {
-    background: transparent;
     max-width: 1000px;
     margin: auto;
 }
@@ -226,18 +217,13 @@ p {
 }
 
 .footer-content {
-    background-color: #fff9ebae;
-    padding: 20px;
-    max-width: 600px;
-    display: block;
+    padding: 100px;
+    max-width: 1000px;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 75px;
-    margin-right: 75px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 1s ease-in;
+}
+
+.goodbye {
+    padding: 5px;
 }
 
 .footer-content h3 {
@@ -258,9 +244,10 @@ p {
 #mc_embed_shell {
     font-family: 'Palanquin', sans-serif;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     background-color: #fff9ebae;
-    border-radius: 8px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .mc-field-group {
