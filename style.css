@@ -345,7 +345,7 @@ input {
 @media (max-width: 500px) {
 
     .navbar-toggler img {
-        max-width: 100px;
+        max-width: 75px;
         margin-left: 0px;
         margin-top: 50px;
         margin-bottom: 20px;
@@ -408,10 +408,5 @@ input {
         margin: 0 auto;
         padding: 25px;
     }
-    .quicklinks {
-        padding: 20px;
-    }
-    .copyright {
-        padding: 30px;
-    }
+  
 }
