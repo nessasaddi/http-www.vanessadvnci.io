@@ -352,8 +352,9 @@ input {
       }
 
     .navbar-nav .nav-link {
-        margin-left: 25px;
-        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-size: 13px;
       }
 
