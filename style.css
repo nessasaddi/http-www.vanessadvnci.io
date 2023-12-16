@@ -441,7 +441,7 @@ input {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     .greetings h1 {
         font-size: 40px;
     }
