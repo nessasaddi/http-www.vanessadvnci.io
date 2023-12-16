@@ -439,5 +439,10 @@ input {
         margin: 0 auto;
         padding: 25px;
     }
-  
+}
+
+@media (max-width: 400px) {
+    .greetings h1 {
+        font-size: 40px;
+    }
 }
