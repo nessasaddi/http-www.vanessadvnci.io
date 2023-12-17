@@ -146,6 +146,7 @@ p {
 .passion {
     max-width: 1000px;
     margin: auto;
+    text-align: center;
 }
 
 .passion h1{
