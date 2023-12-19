@@ -95,7 +95,7 @@ p {
 }
 
 .contactmetext {
-    background: linear-gradient(to top right, #3B7CF1, #FD1115);
+    background: linear-gradient(to top right, #3B7CF1, #9FBF41);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.068);
     border-radius: 30px;
     text-align: center;
@@ -125,6 +125,7 @@ p {
     padding: 10px;
     font-family: 'Palanquin', sans-serif;
     font-size: 15px;
+    font-weight: 500;
     color: #ffffff;  
 }
 .contactmetext a {
