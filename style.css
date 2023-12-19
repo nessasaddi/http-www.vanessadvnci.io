@@ -115,9 +115,6 @@ p {
     font-weight: 600;
     text-transform: capitalize;
 }
-.contactmetext h4 {
-    padding: 10px;
-}
 
 .contactmetext p {
     background: linear-gradient(to bottom left, #ffc43a, #DD4BB4);
@@ -425,8 +422,13 @@ input {
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 60px;
-        
     }
+
+    .contactmetext p {
+        padding: 6px;
+        font-size: 15px;
+    }
+
     .passionprojects {
         text-align: center;
         padding-top: 50px;
