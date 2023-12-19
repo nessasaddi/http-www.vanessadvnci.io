@@ -414,20 +414,20 @@ input {
     }
 
     .contactmebox {
-        padding-top: 50px;
+        padding-top: 60px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
         
     }
     .passionprojects {
         text-align: center;
         padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px
+        padding-left: 30px;
+        padding-right: 30px
     }
     .hashtags {
-        padding: 15px;
+        padding: 10px;
     }
     .frontendwrapper {
         padding-left: 35px;
