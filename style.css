@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #F8FAFD, #ffffff);
+    background: linear-gradient(to bottom, #f8fafd, #ffffff);
     font-family: 'Palanquin', sans-serif;
 }
 
@@ -74,6 +74,7 @@ p {
     letter-spacing: -2px;
     color: #3B3638;
     text-align: left;
+    text-wrap: balance;
 }
 
 .greetings a{
@@ -131,32 +132,34 @@ p {
 }
 
 .contactmetext p:hover {
-    padding: 10px;
     animation: pulse .1s ease-in;
 }
 
-.passionprojects {
+.upcomingprojects {
+    background-color: rgb(230, 230, 230);
+    max-width: 100%;
+    padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    max-width: 1000px;
     margin: auto;
 }
 
-.passion {
-    max-width: 1000px;
+.upcomingprojectstext {
     margin: auto;
     text-align: center;
 }
 
-.passion h1{
-    font-weight: 500;
+.upcomingprojectstext h1{
+    font-weight: 600;
     max-width: 1000px;
     margin: auto;
+    padding: 10px;
 }
 
-.passion p{
+.upcomingprojectstext p{
     max-width: 1000px;
     margin: auto;
+    text-wrap: balance;
 }
 
 .hashtags {
@@ -168,26 +171,32 @@ p {
 }
 
 .hashtagstyle {
-    background-color: #ffffffae;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
     color: #FE9A1C;
     font-size: 13px;
-    font-family: 'Palanquin', sans-serif;
-    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
     padding: 5px 20px 5px 20px;
     border-radius: 20px;
     line-height: 40px;
+    text-wrap: balance;
 }
 
 .projects {
+    background-color: rgb(230, 230, 230);
     max-width: 100%;
     margin: auto;
 }
+.item {
+    margin-left: 8px;
+    margin-top: 20px;
+}
 
 .projects-container {
-    max-width: 300px;
-    margin: 25px auto;
-    background-color: white;
+    max-width: 250px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.483);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
     padding: 10px;
     border-radius: 10px;
@@ -205,15 +214,17 @@ p {
     font-size: 16px;
     padding-top: 5px;
 }
+
+.projects-container p {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 12px;
+    text-wrap: balance;
+}
 .projects-container a {
     text-decoration: none;
     color: #FE9A1C;
     font-weight: 600;
 }
-.item #collectivekinds {
-    background-color: white;
-}
-
 
 .frontendwrapper {
     display: none;
@@ -428,7 +439,7 @@ input {
         font-size: 15px;
     }
 
-    .passionprojects {
+    .upcomingprojects {
         text-align: center;
         padding-top: 50px;
         padding-left: 30px;
