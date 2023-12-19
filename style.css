@@ -193,11 +193,11 @@ p {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 10px;
   }
 
 .projects-container img {
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #3b7bf11d;
 }
 
