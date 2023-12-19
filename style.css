@@ -210,6 +210,9 @@ p {
     color: #FE9A1C;
     font-weight: 600;
 }
+.item #collectivekinds {
+    background-color: white;
+}
 
 
 .frontendwrapper {
@@ -262,10 +265,6 @@ p {
     background-color: #fff9ebae;
     animation: tada 1s ease-in;
     cursor: help;
-}
-
-.icons img {
-    max-width: 40px;
 }
 
 .responsive-img {
@@ -472,11 +471,10 @@ input {
     }
     .contactmebox p{
         font-size: 12px;
-    
     }
     .passionprojects {
         text-align: center;
-        padding: 60px;
+        padding: 30px;
     }
     .quicklinks a {
         font-size: 11px;
