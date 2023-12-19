@@ -183,9 +183,8 @@ p {
 }
 
 .projects {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
-    margin-left: 10px;
 }
 
 .projects-container {
@@ -210,12 +209,9 @@ p {
     padding-top: 5px;
 }
 .projects-container a {
-    text-align: center;
     text-decoration: none;
-    color: white;
-    background-color: #9FBF41;
-    padding: 5px 10px;
-    border-radius: 5px;
+    color: #FE9A1C;
+    font-weight: 600;
 }
 
 
