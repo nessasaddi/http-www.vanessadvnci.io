@@ -216,6 +216,7 @@ p {
 
 
 .frontendwrapper {
+    display: none;
     background-color: #cccccc41;
     padding: 100px;
     max-width: 1000px;
