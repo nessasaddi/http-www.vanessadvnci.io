@@ -188,22 +188,23 @@ p {
     max-width: 100%;
     margin: auto;
 }
+
 .item {
-    margin-left: 8px;
+    margin-left: 15px;
     margin-top: 20px;
 }
 
 .projects-container {
-    max-width: 250px;
+    max-width: 300px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.483);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
 .projects-container img {
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #3b7bf11d;
 }
 
