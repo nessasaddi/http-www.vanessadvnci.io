@@ -209,6 +209,15 @@ p {
     font-size: 16px;
     padding-top: 5px;
 }
+.projects-container a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #9FBF41;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 
 .frontendwrapper {
     background-color: #cccccc41;
