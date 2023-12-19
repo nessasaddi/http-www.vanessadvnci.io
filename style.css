@@ -120,7 +120,7 @@ p {
 }
 
 .contactmetext p {
-    background: linear-gradient(to top left, #ffc43a, #DD4BB4);
+    background: linear-gradient(to bottom left, #ffc43a, #DD4BB4);
     border-radius: 20px;
     padding: 10px;
     font-family: 'Palanquin', sans-serif;
