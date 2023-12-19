@@ -160,6 +160,24 @@ p {
     margin: auto;
 }
 
+.hashtags {
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.hashtagstyle {
+    background-color: #ffffffae;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
+    color: #FE9A1C;
+    font-size: 13px;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 600;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    line-height: 40px;
+}
+
 .projects {
     background: transparent;
     padding: 100px;
@@ -176,9 +194,8 @@ p {
 }
 
 .projects img {
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.188);
+    background-color: #fe981c2b;
+    border-radius: 20px;
 }
 
 .projects p {
@@ -413,6 +430,9 @@ input {
     .projects h2 {
         font-size: 13px;
         padding: 30px -20px 30px 0px;
+    }
+    .hashtags {
+        padding: 15px;
     }
     .frontendwrapper {
         padding-left: 35px;
