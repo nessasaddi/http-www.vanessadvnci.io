@@ -472,6 +472,10 @@ input {
     .contactmebox p{
         font-size: 12px;
     }
+    .hashtagstyle {
+        font-size: 13px;
+        padding: 5px 10px 5px 10px;
+    }
     .passionprojects {
         text-align: center;
         padding: 30px;
