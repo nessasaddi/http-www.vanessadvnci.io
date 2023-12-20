@@ -118,7 +118,7 @@ p {
 }
 
 .upcomingprojects {
-    background-color:#ED834F;
+    background: linear-gradient(to bottom left, #ED834F, #be5c2b);
     max-width: 100%;
     padding-top: 50px;
     margin: auto;
@@ -170,14 +170,9 @@ p {
     margin: auto;
 }
 
-.owl-carousel owl-theme{
-    scroll-behavior: smooth;
-    scroll-snap-stop: always;
-}
-
 .item {
-    background-color: #ffffffdb;
-    max-width: 320px;
+    background-color: #ffffffe4;
+    max-width: 275px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
     border-radius: 14px;
@@ -213,7 +208,6 @@ p {
 
 .frontendwrapper {
     display: none;
-    background-color: #cccccc41;
     padding: 100px;
     max-width: 1000px;
     margin: auto;
@@ -298,7 +292,7 @@ p {
     font-family: 'Palanquin', sans-serif;
     margin: 0 auto;
     padding: 25px;
-    background-color: #fff9ebae;
+    background-color: #fff9ebf4;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -392,6 +386,9 @@ input {
         margin-left: 10px;
         margin-right: 10px;
         color:#3B3638;
+    }
+    .navbar img {
+        max-width: 60px;
     }
 
     .greetings {
