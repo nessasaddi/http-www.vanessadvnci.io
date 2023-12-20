@@ -169,13 +169,10 @@ p {
 .projects {
     max-width: 100%;
     margin: auto;
-    padding: 10px
 }
 
 .item {
     background-color: #ffffffdb;
-    margin-left: 15px;
-    margin-top: 20px;
     max-width: 300px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
