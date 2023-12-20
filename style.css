@@ -426,7 +426,7 @@ input {
 
 @media (max-width: 390px) {
     .greetings h1 {
-        font-size: 45px;
+        font-size: 50px;
     }
     .contactmebox p{
         font-size: 12px;
