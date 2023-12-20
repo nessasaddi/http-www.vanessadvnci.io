@@ -148,6 +148,7 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -159,7 +160,7 @@ p {
     font-weight: 500;
     padding: 5px 20px 5px 20px;
     border-radius: 20px;
-    line-height: 40px;
+    line-height: 35px;
     text-wrap: balance;
 }
 
@@ -194,14 +195,16 @@ p {
 
 .item p {
     font-family: 'Palanquin', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     text-wrap: balance;
 }
 
 .item a {
+    font-family: 'DM Sans', sans-serif;
     margin-top: 5px;
     color: #3B3638;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .frontendwrapper {
