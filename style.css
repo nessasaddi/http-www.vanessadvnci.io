@@ -16,49 +16,6 @@ p {
     color: #3B3638;
 }
 
-.navbar {
-    background-color: transparent !important;
-  }
-  
-  .navbar-toggler,
-  .navbar-toggler:focus,
-  .navbar-toggler:active {
-      border: none;
-      outline: none;
-      box-shadow: none;
-  }
-
-  .navbar-toggler img {
-    max-width: 120px;
-    display: block;
-    margin-left: 80px;
-    margin-top: 80px;
-    animation: swing 1s ease-in;
-    animation-delay: 1s;
-    animation-iteration-count: 4;
-  }
-
-  .navbar-toggler:hover {
-    border: none;
-    outline: none; 
-    box-shadow: none;
-    animation: pulse .5s ease-in;
-  }
-
-  .navbar-nav .nav-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #3B3638;
-    font-size: 13px;
-    font-weight: 600;
-}
-  
-  .navbar-nav .nav-link:hover {
-    text-decoration: none;
-    color: #FE9A1C;
-}
-
 .greetings {
     background: transparent;
     padding: 100px;
@@ -70,7 +27,7 @@ p {
 
 .greetings h1 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: -2px;
     color: #3B3638;
     text-align: left;
@@ -404,20 +361,6 @@ input {
 
 @media (max-width: 500px) {
 
-    .navbar-toggler img {
-        max-width: 100px;
-        margin-left: 0px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-
-    .nav-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 13px;
-      }
-
     .greetings {
         padding-left: 30px;
         padding-right: 30px;
@@ -425,7 +368,7 @@ input {
         padding-bottom: 40px;
     }
     .greetings h1 {
-        font-size: 45px;
+        font-size: 48px;
     }
 
     .contactmebox {
