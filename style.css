@@ -19,6 +19,26 @@ p {
     font-size: 13px;
     color: #3B3638;
 }
+.navbar {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 18px;
+    margin-right: 18px;
+    color:#3B3638;
+}
+
+.navbar img {
+    max-width: 75px;
+    padding: 5px;
+    animation: swing 1s ease-in;
+    animation-iteration-count: 2;
+}
 
 .greetings {
     background: transparent;
@@ -34,7 +54,7 @@ p {
     font-size: 55px;
     letter-spacing: -2px;
     color: #3B3638;
-    text-align: left;
+    text-align: center;
     text-wrap: balance;
 }
 
@@ -44,6 +64,7 @@ p {
 
 .greetings p {
     padding-top: 10px;
+    text-align: center;
 }
 
 .contactmebox {
@@ -57,7 +78,7 @@ p {
 }
 
 .contactmetext {
-    background: linear-gradient(to top right, #3B7CF1, #9FBF41);
+    background-image: url("BGwallpaper.jpeg");
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.068);
     border-radius: 30px;
     text-align: center;
@@ -97,17 +118,15 @@ p {
 }
 
 .upcomingprojects {
-    background-color: rgb(230, 230, 230);
+    background-color:#ED834F;
     max-width: 100%;
     padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
     margin: auto;
+    text-align: center;
 }
 
 .upcomingprojectstext {
     margin: auto;
-    text-align: center;
 }
 
 .upcomingprojectstext h1{
@@ -115,12 +134,15 @@ p {
     max-width: 1000px;
     margin: auto;
     padding: 10px;
+    color: white;
 }
 
 .upcomingprojectstext p{
     max-width: 1000px;
     margin: auto;
     text-wrap: balance;
+    color: white;
+    font-size: 14px;
 }
 
 .hashtags {
@@ -128,13 +150,13 @@ p {
     padding-right: 50px;
     padding-top: 10px;
     text-align: center;
-    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hashtagstyle {
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
-    color: #FE9A1C;
+    background-color: #ffffff31;
+    color: white;
     font-size: 13px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
@@ -145,46 +167,46 @@ p {
 }
 
 .projects {
-    background-color: rgb(230, 230, 230);
     max-width: 100%;
     margin: auto;
+    padding: 10px
 }
 
 .item {
+    background-color: #ffffffdb;
     margin-left: 15px;
     margin-top: 20px;
+    max-width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
+    border-radius: 14px;
 }
 
 .projects-container {
-    max-width: 300px;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.483);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
     padding: 10px;
-    border-radius: 24px;
-  }
-
-.projects-container img {
-    border-radius: 14px;
-    background-color: #3b7bf11d;
 }
 
-.projects-container h1 {
+.item img{
+    border-radius: 14px 14px 0px 0px;
+    filter: grayscale(5%);
+}
+
+.item h1 {
     font-family: 'Palanquin', sans-serif;
     letter-spacing: normal;
     font-weight: 600;
     font-size: 16px;
-    padding-top: 5px;
 }
 
-.projects-container p {
+.item p {
     font-family: 'Palanquin', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     text-wrap: balance;
 }
-.projects-container a {
-    text-decoration: none;
-    color: #FE9A1C;
+
+.item a {
+    margin-top: 5px;
+    color: #3B3638;
     font-weight: 600;
 }
 
@@ -373,6 +395,7 @@ input {
     }
     .greetings h1 {
         font-size: 46px;
+        text-align: center;
     }
 
     .contactmebox {
@@ -388,11 +411,14 @@ input {
     }
 
     .upcomingprojects {
-        text-align: center;
         padding-top: 50px;
         padding-left: 30px;
-        padding-right: 30px
     }
+
+    .upcomingprojectstext {
+        padding-right: 30px;
+    }
+
     .hashtags {
         padding: 10px;
     }
@@ -435,7 +461,7 @@ input {
         font-size: 13px;
         padding: 5px 10px 5px 10px;
     }
-    .passionprojects {
+    .upcomingprojects {
         text-align: center;
         padding: 30px;
     }
