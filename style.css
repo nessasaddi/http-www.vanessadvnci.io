@@ -424,9 +424,13 @@ input {
     .hashtags {
         padding-left: 10px;
         padding-right: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
+
+    .hashtagstyle {
+        font-size: 13px;
+        padding: 5px 10px 5px 10px;
+    }
+
     .frontendwrapper {
         padding-left: 35px;
         padding-right: 35px;
@@ -461,10 +465,6 @@ input {
     }
     .contactmebox p{
         font-size: 12px;
-    }
-    .hashtagstyle {
-        font-size: 13px;
-        padding: 5px 10px 5px 10px;
     }
     .upcomingprojects {
         text-align: center;
