@@ -147,7 +147,6 @@ p {
 .hashtags {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -424,7 +423,11 @@ input {
     }
 
     .hashtags {
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     }
     .frontendwrapper {
         padding-left: 35px;
