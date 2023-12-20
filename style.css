@@ -170,6 +170,11 @@ p {
     margin: auto;
 }
 
+.owl-carousel owl-theme{
+    scroll-behavior: smooth;
+    scroll-snap-stop: always;
+}
+
 .item {
     background-color: #ffffffdb;
     max-width: 320px;

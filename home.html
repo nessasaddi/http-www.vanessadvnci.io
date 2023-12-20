@@ -67,6 +67,7 @@
     </div>
 
 
+<!-- Projects -->
     <div class="upcomingprojects" id="upcomingprojects">
         <div class="upcomingprojectstext">
             <h1>2024 Projects</h1>
@@ -85,7 +86,7 @@
         </div></div>
 
     
-<!-- Projects -->
+<!-- Projects carousel -->
 <div class="projects" id="projects">
         <div class="owl-carousel owl-theme">
 
@@ -257,6 +258,28 @@
         });
     });
 </script>
+
+<!-- Add this script after including Bootstrap and jQuery -->
+<script>
+  $(document).ready(function () {
+      // Prevent vertical scrolling on touch devices within the carousel
+      $('.carousel').on('touchstart', function(event){
+          var xClick = event.originalEvent.touches[0].pageX;
+          $(this).one('touchmove', function(event){
+              var xMove = event.originalEvent.touches[0].pageX;
+              if( Math.floor(xClick - xMove) > 5 || Math.floor(xClick - xMove) < -5 ){
+                  event.preventDefault();
+              }
+          });
+      });
+
+      // Reset touchstart position on touchend
+      $('.carousel').on('touchend', function(){
+          $(this).off('touchmove');
+      });
+  });
+</script>
+
 
         
 </body>
