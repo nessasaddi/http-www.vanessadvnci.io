@@ -131,7 +131,6 @@ p {
 
 .upcomingprojectstext h1{
     font-weight: 600;
-    max-width: 1000px;
     margin: auto;
     padding: 10px;
     color: white;
@@ -173,7 +172,7 @@ p {
 
 .item {
     background-color: #ffffffdb;
-    max-width: 300px;
+    max-width: 320px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
     border-radius: 14px;
@@ -383,6 +382,12 @@ input {
 
 
 @media (max-width: 500px) {
+    .navbar a {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color:#3B3638;
+    }
 
     .greetings {
         padding-left: 30px;
