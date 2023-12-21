@@ -395,8 +395,8 @@ input {
     .greetings {
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 40px;
-        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 10px;
     }
     .greetings h1 {
         font-size: 42px;
@@ -407,7 +407,7 @@ input {
         padding-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
 
     .contactmetext p {
@@ -416,7 +416,7 @@ input {
     }
 
     .upcomingprojects {
-        padding-top: 50px;
+        padding-top: 40px;
         padding-left: 30px;
     }
 
