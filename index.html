@@ -34,7 +34,7 @@
             max-width: 400px;
             margin-top: 250px;
             max-width: 200px;
-            animation: fadeIn .4s;
+            animation: swing 1s ease-in;
         }
 
         .body h3 {
@@ -43,7 +43,6 @@
             color: #3B3638;
             letter-spacing: -1px;
             font-weight: 500;
-            animation: fadeIn .5s ease-in;
         }
         .body p {
             font-family: 'Palanquin', sans-serif;
@@ -51,7 +50,7 @@
             animation: flash .5s ease-in;
             animation-delay: 2s;
             margin-top: -5px;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
 
         .loader {
@@ -61,7 +60,7 @@
         @media (max-width: 500px) {
 
             .merk img {
-                max-width: 150px;
+                max-width: 105px;
             }
             .greetings {
                 padding: 30px;
@@ -82,7 +81,7 @@
 </head>
 <body>
 <div class="body">
-  <div class="merk">
+  <div class="merk wow">
     <img src="img/3.png"></div>
 <h3>vanessadvnci.io</h3>
 <p>Creative Solutions</p>
@@ -101,8 +100,8 @@
     function redirectToHomepage() {
         window.location.href = 'home.html';
     }
-    var duration = 4000;
-    setTimeout(redirectToHomepage, duration);
+    var duration = 3500;
+    setTimeout(redirectToHomepage, duratio);
   </script>
 
 </body>
