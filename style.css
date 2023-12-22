@@ -230,6 +230,7 @@ p {
 }
 
 .frontendwrapper {
+    display: none;
     padding-top: 20px;
     padding-left: 80px;
     padding-right: 80px;
