@@ -42,7 +42,10 @@ p {
 
 .greetings {
     background: transparent;
-    padding: 100px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
     max-width: 900px;
     margin: auto;
     animation: fadeIn .5s ease-in;
@@ -83,11 +86,8 @@ p {
     border-radius: 30px;
     text-align: center;
     padding: 20px;
-    border: 1px solid #ffffff;
-}
-
-.contactmetext .textToCopy {
-    display: none;
+    border: 2px solid #ffffff8a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.161);
 }
 
 .contactmetext h1 {
@@ -167,6 +167,7 @@ p {
 .projects {
     max-width: 100%;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .item {
@@ -229,15 +230,24 @@ p {
 }
 
 .frontendwrapper {
-    display: none;
-    padding: 100px;
-    max-width: 1000px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+    max-width: 700px;
     margin: auto;
+    animation: bounceInRight 1s ease-in;
 }
 
 .frontend {
+    background: linear-gradient(to bottom right, #a0c6ff, #EE8877);
+    padding: 100px; 
     max-width: 1000px;
-    margin: auto;
+    margin: 10px auto;
+    text-align: center;
+    text-wrap: balance;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
 }
 
 .frontend h1{
@@ -257,26 +267,9 @@ p {
     color: #3B3638;
 }
 
-.frontend button {
-    background: linear-gradient(to top left, #ffc43a, #DD4BB4);
-    margin-top: 15px;
-    padding: 10px 15px;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 20px; 
-    border: 0px;
-    animation: tada 1s ease-in;
-    animation-delay: 2s;
-}
-
-.frontend button a {
-    color: #ffffff;
-}
-
-.frontend button:hover {
-    background-color: #fff9ebae;
-    animation: tada 1s ease-in;
-    cursor: help;
+.certswrap {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .responsive-img {
@@ -290,7 +283,7 @@ p {
     padding-right: 100px;
     padding-top: 60px;
     padding-bottom: 10px;
-    max-width: 1000px;
+    max-width: 700px;
     margin: auto;
 }
 
