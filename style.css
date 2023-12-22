@@ -37,7 +37,7 @@ p {
     max-width: 75px;
     padding: 5px;
     animation: swing 1s ease-in;
-    animation-iteration-count: 2;
+    animation-iteration-count: 3;
 }
 
 .greetings {
@@ -81,12 +81,12 @@ p {
 }
 
 .contactmetext {
-    background-image: url("BGwallpaper.jpeg");
+    background: linear-gradient(39deg, rgba(67,96,130,1) 0%, rgba(75,189,179,1) 21%, rgba(163,212,153,1) 31%, rgba(174,225,156,1) 38%, rgba(75,192,181,1) 67%, rgba(67,96,130,1) 100%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.068);
     border-radius: 30px;
     text-align: center;
     padding: 20px;
-    border: 2px solid #ffffff8a;
+    border: 2px solid #ffffffa2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.161);
 }
 
@@ -100,10 +100,11 @@ p {
 }
 
 .contactmetext p {
-    background: linear-gradient(to bottom left, #ffc43a, #DD4BB4);
-    border-radius: 20px;
+    background: linear-gradient(to bottom left, #ffc848, #d853b2);
+    border: 1px solid #ffc84861;
+    border-radius: 30px;
     padding: 10px;
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;  
@@ -114,7 +115,7 @@ p {
 }
 
 .contactmetext p:hover {
-    animation: pulse .1s ease-in;
+    animation: pulse .2s ease-in;
 }
 
 .upcomingprojects {
