@@ -105,7 +105,7 @@ p {
     border-radius: 30px;
     padding: 10px;
     font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     color: #ffffff;  
 }
@@ -432,7 +432,7 @@ input {
 
     .contactmetext p {
         padding: 6px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .upcomingprojects {
