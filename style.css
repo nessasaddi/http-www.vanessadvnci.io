@@ -170,7 +170,7 @@ p {
 }
 
 .item {
-    background-color: #ffffffe4;
+    background-color: #ffffffef;
     max-width: 275px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
@@ -178,7 +178,7 @@ p {
 }
 
 .projects-container {
-    padding: 10px;
+    padding: 15px;
 }
 
 .item img{
@@ -190,21 +190,42 @@ p {
     font-family: 'Palanquin', sans-serif;
     letter-spacing: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 17px;
+    text-align: left;
 }
 
 .item p {
     font-family: 'Palanquin', sans-serif;
     font-size: 12px;
     text-wrap: balance;
+    text-align: left;
 }
 
-.item a {
-    font-family: 'DM Sans', sans-serif;
-    margin-top: 5px;
-    color: #3B3638;
-    font-weight: 600;
+.badge p {
+    color: white;
+    background-color: #8AC99E;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.metadata p{
+    color: rgba(128, 128, 128, 0.612);
+}
+
+.metabutton a{
+    font-size: 13px;
+    color:#D6703D;
     text-decoration: none;
+    border: 1px solid #D6703D;
+    border-radius: 20px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+}
+
+.metabutton a:hover{
+    background-color: #D6703D; 
+    color: white;
 }
 
 .frontendwrapper {
