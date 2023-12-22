@@ -127,6 +127,7 @@ p {
 
 .upcomingprojectstext {
     margin: auto;
+    animation: fadeIn .5s ease-in;
 }
 
 .upcomingprojectstext h1{
