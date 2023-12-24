@@ -400,13 +400,11 @@ input {
     font-size: 10px;
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 430px) {
     .navbar a {
-        font-size: 13px;
-        margin-left: 10px;
-        margin-right: 10px;
-        color:#3B3638;
+        font-size: 12px;
+        margin-left: 9px;
+        margin-right: 9px;
     }
     .navbar img {
         max-width: 60px;
@@ -415,59 +413,47 @@ input {
     .greetings {
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 25px;
+        padding-top: 20px;
         padding-bottom: 10px;
     }
     .greetings h1 {
-        font-size: 42px;
+        font-size: 41px;
         text-align: center;
     }
 
     .contactmebox {
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-top: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
         padding-bottom: 40px;
+    }
+    .contactmetext {
+        padding: 9px;
     }
 
     .contactmetext p {
         padding: 6px;
-        font-size: 13px;
-    }
-
-    .upcomingprojects {
-        padding-top: 40px;
-        padding-left: 30px;
+        font-size: 12px;
+        font-weight: 600;
     }
 
     .upcomingprojectstext {
-        padding-right: 30px;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-
+    
     .hashtags {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .hashtagstyle {
-        font-size: 13px;
+        font-size: 11px;
         padding: 5px 10px 5px 10px;
     }
-
-    .frontendwrapper {
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    .frontend {
-        background: transparent;
-        max-width: 1000px;
-        margin: auto;
-    }
-    .frontend h1 {
-        font-size: 28px;
-        margin-bottom: 5px;
+    .projects {
+        margin-left: 5px;
     }
     .footer-content {
         padding-left: 30px;
@@ -483,21 +469,338 @@ input {
         margin: 0 auto;
         padding: 25px;
     }
+    .quicklinks {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .quicklinks a{
+        margin-left: 7px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 428px) {
+    .navbar a {
+        font-size: 12px;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    .navbar img {
+        max-width: 60px;
+    }
+
+    .greetings {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .greetings h1 {
+        font-size: 41px;
+        text-align: center;
+    }
+
+    .contactmebox {
+        padding-top: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+    .contactmetext {
+        padding: 9px;
+    }
+
+    .contactmetext p {
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .upcomingprojectstext {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .hashtags {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .hashtagstyle {
+        font-size: 11px;
+        padding: 5px 10px 5px 10px;
+    }
+    .projects {
+        margin-left: 5px;
+    }
+    .footer-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        margin: auto;
+    }
+    .goodbye {
+        padding: 5px;
+    }
+    #mc_embed_shell {
+        margin: 0 auto;
+        padding: 25px;
+    }
+    .quicklinks {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .quicklinks a{
+        margin-left: 7px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 393px) {
+    .navbar a {
+        font-size: 12px;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    .navbar img {
+        max-width: 60px;
+    }
+
+    .greetings {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .greetings h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .contactmebox {
+        padding-top: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+    .contactmetext {
+        padding: 9px;
+    }
+
+    .contactmetext p {
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .upcomingprojectstext {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .hashtags {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .hashtagstyle {
+        font-size: 11px;
+        padding: 5px 10px 5px 10px;
+    }
+    .projects {
+        margin-left: 5px;
+    }
+    .footer-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        margin: auto;
+    }
+    .goodbye {
+        padding: 5px;
+    }
+    #mc_embed_shell {
+        margin: 0 auto;
+        padding: 25px;
+    }
+    .quicklinks {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .quicklinks a{
+        margin-left: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: 390px) {
-    .greetings h1 {
-        font-size: 38px;
-    }
-    .contactmebox p{
+    .navbar a {
         font-size: 12px;
+        margin-left: 9px;
+        margin-right: 9px;
     }
-    .upcomingprojects {
+    .navbar img {
+        max-width: 60px;
+    }
+
+    .greetings {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .greetings h1 {
+        font-size: 35px;
         text-align: center;
-        padding: 30px;
     }
-    .quicklinks a {
-        font-size: 11px;
+
+    .contactmebox {
+        padding-top: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+    .contactmetext {
+        padding: 9px;
+    }
+
+    .contactmetext p {
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .upcomingprojectstext {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
+    .hashtags {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .hashtagstyle {
+        font-size: 11px;
+        padding: 5px 10px 5px 10px;
+    }
+    .projects {
+        margin-left: 5px;
+    }
+    .footer-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        margin: auto;
+    }
+    .goodbye {
+        padding: 5px;
+    }
+    #mc_embed_shell {
+        margin: 0 auto;
+        padding: 25px;
+    }
+    .quicklinks {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .quicklinks a{
+        margin-left: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar a {
+        font-size: 12px;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    .navbar img {
+        max-width: 60px;
+    }
+
+    .greetings {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .greetings h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .contactmebox {
+        padding-top: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+    .contactmetext {
+        padding: 9px;
+    }
+
+    .contactmetext p {
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .upcomingprojectstext {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .hashtags {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .hashtagstyle {
+        font-size: 11px;
+        padding: 5px 10px 5px 10px;
+    }
+    .projects {
+        margin-left: 5px;
+    }
+    .footer-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        margin: auto;
+    }
+    .goodbye {
+        padding: 5px;
+    }
+    #mc_embed_shell {
+        margin: 0 auto;
+        padding: 25px;
+    }
+    .quicklinks {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .quicklinks a{
+        margin-left: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
 }
