@@ -48,7 +48,7 @@ p {
     padding-bottom: 20px;
     max-width: 900px;
     margin: auto;
-    animation: fadeIn .5s ease-in;
+    animation: fadeIn 1s ease-in;
  
 }
 
@@ -86,7 +86,7 @@ p {
     border-radius: 30px;
     text-align: center;
     padding: 20px;
-    border: 2px solid #ffffffa2;
+    border: 1px solid #ffffffa2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.161);
 }
 
