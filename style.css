@@ -135,6 +135,7 @@ p {
 }
 
 .upcomingprojectstext h1{
+    max-width: 1000px;
     font-weight: 600;
     margin: auto;
     color: white;
