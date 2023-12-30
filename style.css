@@ -75,6 +75,10 @@ p {
     padding-top: 10px;
     text-align: left;
 }
+.container {
+    padding: 0px;
+    font-size: 10px;
+}
 
 .contactmebox {
     padding-top: 20px;
