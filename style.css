@@ -19,7 +19,7 @@ p {
     color: #3B3638;
 }
 .first {
-    background: linear-gradient(to bottom right, #ffffff, rgb(255, 241, 241));
+    background-color: rgb(252, 252, 252);
 }
 .navbar {
     display: block;
