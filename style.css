@@ -76,7 +76,7 @@ p {
     text-align: left;
 }
 .container p{
-    padding: 0px;
+    text-align: center;
     font-size: 13px;
 }
 
