@@ -79,15 +79,6 @@ p {
     padding: 0px;
     font-size: 13px;
 }
-.hashtagstyle {
-    color: #ea8519;
-    font-size: 12px;
-    font-family: 'DM Sans', sans-serif;
-    padding: 4px 10px 4px 10px;
-    border: 1px solid #ea8519;
-    border-radius: 2px;
-    line-height: 35px;
-}
 
 .contactmebox {
     padding-top: 20px;
@@ -166,7 +157,25 @@ p {
     font-size: 14px;
 }
 
+.hashtags {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0px auto;
+    max-width: 1000px;
+    text-wrap: balance;
+}
 
+.hashtagstyle {
+    background-color: #ffffff31;
+    color: white;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.494);
+    border-radius: 2px;
+    line-height: 35px;
+}
 
 .projects {
     max-width: 100%;
@@ -804,6 +813,10 @@ input {
     .upcomingprojectstext h1{
         font-size: 30px;
         font-weight: 600;
+    }
+    .hashtagstyle {
+        font-size: 11px;
+        padding: 5px 10px 5px 10px;
     }
     .projects {
         padding-left: 20px;
