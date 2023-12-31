@@ -84,6 +84,10 @@ p {
     font-size: 13px;
 }
 
+.container .col {
+    padding: inline;
+}
+
 .contactmebox {
     padding-top: 20px;
     padding-left: 80px;
