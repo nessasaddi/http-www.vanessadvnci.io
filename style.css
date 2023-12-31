@@ -48,7 +48,7 @@ p {
 
 .greetings {
     background: transparent;
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     padding-top: 20px;
     padding-left: 100px;
@@ -59,7 +59,7 @@ p {
 
 .greetingshello {
     font-family: 'DM Sans', sans-serif;
-    padding: 50px;
+    padding: 20px;
 }
 
 .greetings h1 {
@@ -68,24 +68,37 @@ p {
     letter-spacing: -2px;
     color: #3B3638;
     text-align: center;
+    text-wrap: balance;
 }
 
 .greetings a {
-    color: #e414a6a7;
+    color: #DD4BB4;
+    font-weight: 500;
+    text-decoration: none;
+
 }
 
 .greetings p {
     padding-top: 10px;
     text-align: left;
-    max-width: 1000px;
+    text-wrap: balance;
+}
+
+.container {
+    padding: 0px;
 }
 
 .container p {
-    font-size: 13px;
+    color: #3b3638;
+    padding: 10px;
+    font-size: 12px;
+    background-color: rgba(255, 225, 174, 0.196);
+    border-radius: 20px;
 }
 
-.container .col {
-    padding: inline;
+.highlight {
+    color: #E61D1C;
+    font-weight: 500;
 }
 
 .contactmebox {
