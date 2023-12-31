@@ -74,9 +74,9 @@ p {
 .greetings p {
     padding-top: 10px;
     text-align: left;
+    max-width: 1000px;
 }
 .container p{
-    text-align: center;
     font-size: 13px;
 }
 
