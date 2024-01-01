@@ -166,44 +166,25 @@ p {
 }
 
 .upcomingprojectstext h1 {
-    max-width: 1000px;
-    font-weight: 600;
+    padding: 30px;
+    max-width: 600px;
     margin: auto;
     color: white;
+    font-size: 40px;
+    text-align: center;
 }
 
 .upcomingprojectstext p {
-    max-width: 1000px;
+    max-width: 600px;
     margin: auto;
     color: white;
     font-size: 14px;
 }
 
-.hashtags {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: 0px auto;
-    max-width: 1000px;
-    text-wrap: balance;
-}
-
-.hashtagstyle {
-    background-color: #ffffff31;
-    color: white;
-    font-size: 13px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    padding: 4px 10px 4px 10px;
-    border: 1px solid rgba(255, 255, 255, 0.494);
-    border-radius: 2px;
-    line-height: 35px;
-}
-
 .projects {
-    max-width: 100%;
+    max-width: 600px;
     margin: auto;
     padding-bottom: 20px;
-    padding-left: 75px;
     scroll-behavior: smooth;
 }
 
@@ -499,16 +480,6 @@ input {
         font-weight: 600;
     }
 
-    .hashtags {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .hashtagstyle {
-        font-size: 11px;
-        padding: 5px 10px 5px 10px;
-    }
-
     .projects {
         padding-left: 20px;
     }
@@ -601,16 +572,6 @@ input {
     .upcomingprojectstext h1 {
         font-size: 30px;
         font-weight: 600;
-    }
-
-    .hashtags {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .hashtagstyle {
-        font-size: 11px;
-        padding: 5px 10px 5px 10px;
     }
 
     .projects {
@@ -707,16 +668,6 @@ input {
         font-weight: 600;
     }
 
-    .hashtags {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .hashtagstyle {
-        font-size: 11px;
-        padding: 5px 10px 5px 10px;
-    }
-
     .projects {
         padding-left: 20px;
     }
@@ -811,16 +762,6 @@ input {
         font-weight: 600;
     }
 
-    .hashtags {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .hashtagstyle {
-        font-size: 11px;
-        padding: 5px 10px 5px 10px;
-    }
-
     .projects {
         padding-left: 20px;
     }
@@ -913,11 +854,6 @@ input {
     .upcomingprojectstext h1 {
         font-size: 30px;
         font-weight: 600;
-    }
-
-    .hashtagstyle {
-        font-size: 11px;
-        padding: 5px 10px 5px 10px;
     }
 
     .projects {
