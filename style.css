@@ -43,7 +43,7 @@ p {
     max-width: 75px;
     padding: 5px;
     animation: swing 1s ease-in;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
 }
 
 .greetings {
