@@ -189,66 +189,42 @@ p {
     scroll-behavior: smooth;
 }
 
-.item {
-    background-color: #ffffffef;
-    max-width: 275px;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
-    border-radius: 14px;
+.lansangitem {
+    background: linear-gradient(to bottom right, #a0eaff77, #ffc84853);
+    border-radius: 30px;
+    max-width: 650px;
+    padding: 10px;
+    animation: fadeIn .3s;
 }
-
-.projects-container {
-    padding: 15px;
+.lansangitemcontainer {
+    padding: 20px;
+    justify-content: center;
 }
-
-.item img {
-    border-radius: 14px 14px 0px 0px;
-    filter: grayscale(5%);
-}
-.item img:hover {
-    animation: pulse .2s ease-in;
-    overflow: hidden;
-}
-
-.item h1 {
-    font-family: 'Palanquin', sans-serif;
-    letter-spacing: normal;
-    font-weight: 600;
-    font-size: 17px;
-    text-align: left;
-}
-
-.item p {
-    font-family: 'Palanquin', sans-serif;
-    font-size: 12px;
-    text-wrap: balance;
-    text-align: left;
-}
-
-.badge p {
+.lansangitemcontainer h1{
     color: white;
-    background-color: #8AC99E;
-    padding: 3px;
-    border-radius: 10px;
-    font-size: 10px;
+    font-size: 40px;
+}
+.lansangitemcontainer p{
+    color: white;
+}
+.lansangitem img {
+    animation: fadeIn .5s ease-in;
 }
 
 .metadata p {
-    color: rgba(128, 128, 128, 0.612);
+    color: rgba(255, 255, 255, 0.612);
 }
-
 .metabutton a {
     text-align: center;
-    font-size: 13px;
-    color: #D6703D;
+    font-size: 15px;
+    background-color: #d6ba3d;
+    color: white;
     text-decoration: none;
-    border: 1px solid #D6703D;
     border-radius: 20px;
     padding: 5px;
     display: block;
     width: 100%;
 }
-
 .metabutton a:hover {
     background-color: #D6703D;
     color: white;
@@ -485,10 +461,6 @@ input {
         font-weight: 600;
     }
 
-    .projects {
-        padding-left: 20px;
-    }
-
     .footer-content {
         padding-left: 30px;
         padding-right: 30px;
@@ -577,10 +549,6 @@ input {
     .upcomingprojectstext h1 {
         font-size: 30px;
         font-weight: 600;
-    }
-
-    .projects {
-        padding-left: 20px;
     }
 
     .footer-content {
@@ -673,10 +641,6 @@ input {
         font-weight: 600;
     }
 
-    .projects {
-        padding-left: 20px;
-    }
-
     .footer-content {
         padding-left: 30px;
         padding-right: 30px;
@@ -767,10 +731,6 @@ input {
         font-weight: 600;
     }
 
-    .projects {
-        padding-left: 20px;
-    }
-
     .footer-content {
         padding-left: 30px;
         padding-right: 30px;
@@ -859,10 +819,6 @@ input {
     .upcomingprojectstext h1 {
         font-size: 30px;
         font-weight: 600;
-    }
-
-    .projects {
-        padding-left: 20px;
     }
 
     .footer-content {
