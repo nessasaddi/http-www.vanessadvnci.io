@@ -208,7 +208,7 @@ p {
     font-family: 'DM Sans', sans-serif;
     position: absolute;
     color: #3B3638;
-    font-size: 34px;
+    font-size: 33px;
     letter-spacing: -1px;
     text-wrap: nowrap;
 }
@@ -224,7 +224,7 @@ p {
 }
 
 .metadata p {
-    color: #3b3638ad;
+    color: #3b36386b;
 }
 .metabutton a {
     text-align: center;
