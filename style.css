@@ -151,7 +151,7 @@ p {
 }
 
 .upcomingprojects {
-    background: linear-gradient(to bottom left, #ED834F, #be5c2b);
+    background-color: #3B3638;
     max-width: 100%;
     padding-top: 50px;
     margin: auto;
@@ -179,10 +179,11 @@ p {
     margin: auto;
     color: white;
     font-size: 14px;
+    text-align: center;
 }
 
 .projects {
-    max-width: 600px;
+    max-width: 100%;
     margin: auto;
     padding-bottom: 20px;
     scroll-behavior: smooth;
@@ -203,6 +204,10 @@ p {
 .item img {
     border-radius: 14px 14px 0px 0px;
     filter: grayscale(5%);
+}
+.item img:hover {
+    animation: pulse .2s ease-in;
+    overflow: hidden;
 }
 
 .item h1 {
