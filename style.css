@@ -102,6 +102,7 @@ p {
 }
 
 .contactmebox {
+    display: none;
     padding-top: 20px;
     padding-left: 80px;
     padding-right: 80px;
@@ -151,7 +152,7 @@ p {
 }
 
 .upcomingprojects {
-    background-color: #3B3638;
+    background: linear-gradient(to bottom right, #a0c6ff, #EE8877);
     max-width: 100%;
     padding-top: 50px;
     margin: auto;
@@ -185,43 +186,50 @@ p {
 .projects {
     max-width: 100%;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     scroll-behavior: smooth;
 }
 
 .lansangitem {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
-    background: linear-gradient(to bottom right, #a0eaff77, #ffc84853);
-    border-radius: 30px;
-    max-width: 650px;
-    padding: 10px;
-    margin-left: 5px;
+    background: linear-gradient(to bottom right, #a0eaffd0, #fff0cdbc);
+    border-radius: 20px;
+    max-width: 560px;
+    margin-left: 10px;
     animation: fadeIn .3s;
 }
 .lansangitemcontainer {
-    padding: 20px;
-    justify-content: center;
+    padding-left: 20px;
+    padding-top: 30px;
 }
 .lansangitemcontainer h1{
-    color: white;
-    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    color: #3B3638;
+    font-size: 34px;
+    letter-spacing: -1px;
+    text-wrap: nowrap;
 }
 .lansangitemcontainer p{
-    color: white;
+    padding-top: 55px;
+    color: #3B3638;
+    text-wrap: balance;
 }
-.lansangitem img {
+.lansangitemimg img{
     animation: fadeIn .5s ease-in;
+    padding-right: 15px;
+    padding-top: 10px;
 }
 
 .metadata p {
-    color: rgba(255, 255, 255, 0.612);
+    color: #3b3638ad;
 }
 .metabutton a {
     text-align: center;
     font-size: 15px;
-    background-color: #d6ba3d;
+    background-color: #EE8877;
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -823,29 +831,6 @@ input {
     .upcomingprojectstext h1 {
         font-size: 30px;
         font-weight: 600;
-    }
-
-    .lansangitem {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 50px;
-        max-width: 300px;
-    }
-    .lansangitemcontainer {
-        padding: 20px;
-        justify-content: center;
-    }
-    .lansangitemcontainer h1{
-        color: white;
-        font-size: 20px;
-        letter-spacing: 0px;
-        padding: 0px;
-    }
-    .lansangitemcontainer p{
-        color: white;
-    }
-    .lansangitem img {
-        max-width: 300px;
     }
 
 
