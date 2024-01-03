@@ -190,10 +190,14 @@ p {
 }
 
 .lansangitem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     background: linear-gradient(to bottom right, #a0eaff77, #ffc84853);
     border-radius: 30px;
     max-width: 650px;
     padding: 10px;
+    margin-left: 5px;
     animation: fadeIn .3s;
 }
 .lansangitemcontainer {
@@ -820,6 +824,30 @@ input {
         font-size: 30px;
         font-weight: 600;
     }
+
+    .lansangitem {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        max-width: 300px;
+    }
+    .lansangitemcontainer {
+        padding: 20px;
+        justify-content: center;
+    }
+    .lansangitemcontainer h1{
+        color: white;
+        font-size: 20px;
+        letter-spacing: 0px;
+        padding: 0px;
+    }
+    .lansangitemcontainer p{
+        color: white;
+    }
+    .lansangitem img {
+        max-width: 300px;
+    }
+
 
     .footer-content {
         padding-left: 30px;
