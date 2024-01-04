@@ -112,57 +112,6 @@ p {
     color: #E61D1C;
     font-weight: 500;
 }
-
-.contactmebox {
-    display: none;
-    padding-top: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 100px;
-    max-width: 700px;
-    margin: auto;
-    animation: bounceInLeft 1s ease-in;
-}
-
-.contactmetext {
-    background: linear-gradient(39deg, rgba(67, 96, 130, 1) 0%, rgba(75, 189, 179, 1) 21%, rgba(163, 212, 153, 1) 31%, rgba(174, 225, 156, 1) 38%, rgba(75, 192, 181, 1) 67%, rgba(67, 96, 130, 1) 100%);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.068);
-    border-radius: 30px;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ffffffa2;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.161);
-}
-
-.contactmetext h1 {
-    color: white;
-    font-size: 25px;
-    padding: 5px;
-    letter-spacing: -1px;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
-.contactmetext p {
-    background: linear-gradient(to bottom left, #ffc848, #d853b2);
-    border: 1px solid #ffc84861;
-    border-radius: 30px;
-    padding: 10px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: #ffffff;
-}
-
-.contactmetext a {
-    text-decoration: none;
-    color: white;
-}
-
-.contactmetext p:hover {
-    animation: pulse .2s ease-in;
-}
-
 .upcomingprojects {
     background: linear-gradient(to bottom right, #a0c6ff, #EE8877);
     max-width: 100%;
