@@ -101,11 +101,16 @@ p {
 }
 
 .container p {
-    color: #3b3638;
+    color: #585053;
     padding: 10px;
     font-size: 12px;
-    background-color: rgba(255, 225, 174, 0.196);
-    border-radius: 20px;
+    background-color: rgba(255, 247, 216, 0.465);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container p:hover {
+    transition: 1s ease-in;
 }
 
 .highlight {
@@ -160,8 +165,9 @@ p {
     border-radius: 20px;
     max-width: 550px;
     max-height: 430px;
-    margin-left: 20px;
+    margin-left: 10px;
     animation: fadeIn .5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .lansangitem:hover {
@@ -209,9 +215,10 @@ p {
     border-radius: 20px;
     max-width: 400px;
     height: 430px;
-    margin-left: 20px;
+    margin-left: 10px;
     animation: fadeIn .5s;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .globaltp:hover {
@@ -271,6 +278,7 @@ p {
     margin-left: 10px;
     animation: fadeIn .5s;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .mindfulmedcontainer {
