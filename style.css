@@ -208,6 +208,21 @@ p {
     color: #3b36386b;
 }
 
+.socials {
+    display: flex;
+    justify-content: start;
+}
+
+.socialicons img{
+    max-width: 35px;
+    margin-right: 20px;
+}
+
+.socialicons img:hover{
+    max-width: 40px;
+    transition: .1s ease-in;
+}
+
 .globaltp {
     display: grid;
     grid-template-columns: 2fr 3fr;
