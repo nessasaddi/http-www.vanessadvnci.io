@@ -278,16 +278,27 @@ p {
     line-height: 30px;
 }
 
+.globaltpcontainer .metadata p {
+    color: #3b36386b;
+}
+
 .globaltpcontainer p {
     font-size: 13px;
     color: #3B3638;
     text-wrap: balance;
 }
 
-.gtpmetadata p {
-    color: #3b36386b;
+.globaltpcontainer a {
+    font-size: 13px;
+    color:#DD4BB4;
+    font-weight: 500;
 }
 
+.globaltpcontainer a:hover {
+    color: #3b36386b;
+    text-decoration: none;
+    transition: .1s ease-in;
+}
 .globaltpimg {
     position: relative;
     overflow: hidden;
@@ -306,12 +317,9 @@ p {
 }
 
 .mindfulmed {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background: url("img/MMai.png");
-    background-size: cover;
+    position: relative;
     border-radius: 20px;
-    max-width: 450px;
+    max-width: 400px;
     height: 420px;
     margin-left: 10px;
     animation: fadeIn .5s;
@@ -319,28 +327,43 @@ p {
 }
 
 .mindfulmedcontainer {
-    background-color: rgba(255, 255, 255, 0.878);
-    padding-top: 40px;
-    padding-left: 20px;
-}
-
-.mindfulmedcontainer:hover {
-    background-color: rgba(255, 255, 255, 0.465);
-    transition: .3s ease-in;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.308);
 }
 
 .mindfulmedcontainer h1 {
     font-family: 'DM Sans', sans-serif;
-    color: #3B3638;
+    color: white;
     font-size: 33px;
     letter-spacing: -2px;
     line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
 }
 
 .mindfulmedcontainer p {
-    font-size: 13px;
-    color: #3B3638;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
     text-wrap: balance;
+    text-align: center;
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
+}
+
+.mindfulmedimg img{
+    position: absolute;
+    display: cover;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.mindfulmed:hover .mindfulmedimg img {
+    transform: scale(1.5);
+    transform-origin: center center;
+    transition: transform 0.3s ease;
 }
 
 .contactwrapper {
