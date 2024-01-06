@@ -204,6 +204,17 @@ p {
     animation: headShake 1s ease-in-out;
 }
 
+.lansangitem a {
+    color:#DD4BB4;
+    font-weight: 500;
+}
+
+.lansangitem a:hover {
+    color: #3b36386b;
+    text-decoration: none;
+    transition: .1s ease-in;
+}
+
 .metadata p {
     color: #3b36386b;
 }
