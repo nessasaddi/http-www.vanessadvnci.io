@@ -366,6 +366,56 @@ p {
     transition: transform 0.3s ease;
 }
 
+.collective {
+    position: relative;
+    border-radius: 20px;
+    max-width: 400px;
+    height: 420px;
+    margin-left: 10px;
+    animation: fadeIn .5s;
+    overflow: hidden;
+}
+
+.collectivecontainer {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.collectivecontainer h1 {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 33px;
+    letter-spacing: -2px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
+}
+
+.collectivecontainer p {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-wrap: balance;
+    text-align: center;
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
+}
+
+.collectiveimg img{
+    position: absolute;
+    display: cover;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.collective:hover .collectiveimg img {
+    transform: scale(1.5);
+    transform-origin: center center;
+    transition: transform 0.3s ease;
+}
+
 .contactwrapper {
     padding-top: 20px;
     padding-left: 80px;
