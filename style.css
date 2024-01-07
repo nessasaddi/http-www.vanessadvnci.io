@@ -71,7 +71,7 @@ p {
     font-family: 'DM Sans', sans-serif;
     font-size: 55px;
     letter-spacing: -2px;
-    font-weight:500;
+    font-weight: 500;
     color: #ffffff;
     justify-content: center;
     align-items: center;
@@ -114,12 +114,11 @@ p {
     background-color: rgba(255, 247, 216, 0.465);
     border-radius: 5px;
     box-shadow:
-      0 1px 1px hsl(0deg 0% 0% / 0.075),
-      0 2px 2px hsl(0deg 0% 0% / 0.075),
-      0 4px 4px hsl(0deg 0% 0% / 0.050),
-      0 8px 8px hsl(0deg 0% 0% / 0.0),
-      0 16px 16px hsl(0deg 0% 0% / 0.0)
-    ;
+        0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.050),
+        0 8px 8px hsl(0deg 0% 0% / 0.0),
+        0 16px 16px hsl(0deg 0% 0% / 0.0);
 }
 
 .container p:hover {
@@ -144,6 +143,8 @@ p {
     animation: fadeIn 1s ease-in;
     padding-left: 75px;
     padding-right: 75px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 .upcomingprojectstext h1 {
@@ -166,7 +167,7 @@ p {
 .projects {
     max-width: 100%;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     scroll-behavior: smooth;
 }
 
@@ -218,7 +219,7 @@ p {
 }
 
 .lansangitem a {
-    color:#DD4BB4;
+    color: #DD4BB4;
     font-weight: 500;
 }
 
@@ -237,12 +238,12 @@ p {
     justify-content: start;
 }
 
-.socialicons img{
+.socialicons img {
     max-width: 35px;
     margin-right: 20px;
 }
 
-.socialicons img:hover{
+.socialicons img:hover {
     max-width: 40px;
     transition: .1s ease-in;
 }
@@ -290,7 +291,7 @@ p {
 
 .globaltpcontainer a {
     font-size: 13px;
-    color:#DD4BB4;
+    color: #DD4BB4;
     font-weight: 500;
 }
 
@@ -299,6 +300,7 @@ p {
     text-decoration: none;
     transition: .1s ease-in;
 }
+
 .globaltpimg {
     position: relative;
     overflow: hidden;
@@ -352,7 +354,7 @@ p {
     text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
 }
 
-.mindfulmedimg img{
+.mindfulmedimg img {
     position: absolute;
     display: cover;
     height: 100%;
@@ -402,7 +404,7 @@ p {
     text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
 }
 
-.collectiveimg img{
+.collectiveimg img {
     position: absolute;
     display: cover;
     height: 100%;
@@ -414,6 +416,28 @@ p {
     transform: scale(1.5);
     transform-origin: center center;
     transition: transform 0.3s ease;
+}
+
+.frontend {
+    max-width: 250px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.frontend p {
+    text-wrap: balance;
+    text-align: center;
+    color: #585053;
+    padding: 10px;
+    font-size: 12px;
+    background-color: rgba(255, 247, 216, 0.465);
+    border-radius: 5px;
+    box-shadow:
+        0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.050),
+        0 8px 8px hsl(0deg 0% 0% / 0.0),
+        0 16px 16px hsl(0deg 0% 0% / 0.0);
 }
 
 .contactwrapper {
@@ -541,6 +565,7 @@ p {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .upcomingprojects {
         padding-top: 15px;
     }
@@ -621,6 +646,7 @@ p {
         font-size: 12px;
 
     }
+
     .greetingshello h1 {
         font-size: 35px;
         padding-top: 20px;
