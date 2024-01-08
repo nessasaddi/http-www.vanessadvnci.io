@@ -59,7 +59,7 @@ p {
 }
 
 .greetingshello {
-    background-image: url("img/office5.png");
+    background-image: url("img/office1.png");
     background-size: cover;
     background-position: center;
     max-width: 1000;
@@ -119,10 +119,6 @@ p {
         0 4px 4px hsl(0deg 0% 0% / 0.050),
         0 8px 8px hsl(0deg 0% 0% / 0.0),
         0 16px 16px hsl(0deg 0% 0% / 0.0);
-}
-
-.container p:hover {
-    transition: 1s ease-in;
 }
 
 .highlight {
@@ -418,15 +414,20 @@ p {
     transition: transform 0.3s ease;
 }
 
-.frontend {
-    max-width: 250px;
-    margin: auto;
+.secondrow {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 600px;
+    margin: auto;
 }
 
-.frontend p {
-    text-wrap: balance;
+.secondrow p {
     text-align: center;
+    text-wrap: balance;
     color: #585053;
     padding: 10px;
     font-size: 12px;
@@ -724,6 +725,20 @@ p {
     .upcomingprojectstext h1 {
         font-size: 30px;
         font-weight: 600;
+    }
+
+    .lansangitemimg img:hover {
+        animation: none;
+    }
+
+    .globaltpimg img:hover {
+        animation: none;
+    }
+    .mindfulmed:hover .mindfulmedimg img {
+        transform: none;
+    }
+    .collective:hover .collectiveimg img {
+        transform: none;
     }
 
     .quicklinks {
