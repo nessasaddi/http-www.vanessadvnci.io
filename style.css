@@ -51,7 +51,7 @@ p {
 }
 
 .navbar img {
-    max-width: 48px;
+    max-width: 40px;
     animation: swing 1s ease-in;
     animation-iteration-count: 2;
     justify-content: center;
@@ -62,9 +62,9 @@ p {
     background-image: url("img/office1.png");
     background-size: cover;
     background-position: center;
-    max-width: 1000;
     height: 75vh;
     padding-top: 100px;
+    animation: fadeIn .5s ease-in;
 }
 
 .greetingshello h1 {
@@ -696,13 +696,12 @@ p {
         font-size: 12px;
     }
 
-    .greetingshello h1 {
-        font-size: 35px;
-        padding-top: 20px;
-    }
-
     .greetingshello {
         height: 50vh;
+    }
+
+      .greetingshello h1 {
+        font-size: 40px;
     }
 
     .greetings {
