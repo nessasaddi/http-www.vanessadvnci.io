@@ -25,21 +25,22 @@ p {
 }
 
 .navbar {
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    position: relative;
 }
 
 .navbarlinks {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: end;
+    align-items: end;
 }
-
+.menu {
+    padding-right: 20px;
+}
 .navbar a {
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     font-size: 13px;
     font-family: 'DM Sans', sans-serif;
@@ -48,14 +49,6 @@ p {
 
 .navbar a:hover {
     color: #8d8d8d;
-}
-
-.navbar img {
-    max-width: 40px;
-    animation: swing 1s ease-in;
-    animation-iteration-count: 2;
-    justify-content: center;
-    align-items: center;
 }
 
 .greetingshello {
@@ -71,16 +64,16 @@ p {
     font-family: 'DM Sans', sans-serif;
     font-size: 55px;
     letter-spacing: -2px;
-    font-weight: 500;
-    color: #ffffff;
+    font-weight: 600;
+    color: #232323;
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.224);
 }
 
 .greetings a {
-    color: #DD4BB4;
+    color: #e25d48;
     font-weight: 500;
     text-decoration: none;
 
@@ -108,11 +101,11 @@ p {
 }
 
 .container p {
-    color: #585053;
+    color:#3B3638;
     padding: 10px;
     font-size: 12px;
-    background-color: rgba(255, 247, 216, 0.465);
-    border-radius: 5px;
+    background: linear-gradient(to bottom right, #ffefdf94, #e0be95af);
+    border-radius: 15px;
     box-shadow:
         0 1px 1px hsl(0deg 0% 0% / 0.075),
         0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -171,7 +164,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
-    background: linear-gradient(to bottom right, #a0eaffd0, #fff0cdbc);
+    background: linear-gradient(to bottom right, #e4f9ffd0, #fff0cdbc);
     border-radius: 20px;
     max-width: 550px;
     max-height: 430px;
@@ -181,7 +174,7 @@ p {
 }
 
 .lansangitem:hover {
-    background: linear-gradient(to bottom right, #a0eaffd0, #efddb3bc);
+    background: linear-gradient(to bottom right, #e4f9ffd0, #f2deafbc);
 }
 
 .lansangitemcontainer {
@@ -415,9 +408,6 @@ p {
 }
 
 .secondrow {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 20px;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -431,8 +421,8 @@ p {
     color: #585053;
     padding: 10px;
     font-size: 12px;
-    background-color: rgba(255, 247, 216, 0.465);
-    border-radius: 5px;
+    background: linear-gradient(to bottom right, #ffefdf94, #e0be95af);
+    border-radius: 15px;
     box-shadow:
         0 1px 1px hsl(0deg 0% 0% / 0.075),
         0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -470,7 +460,7 @@ p {
 }
 
 .quicklinks {
-    padding: 30px;
+    padding: 0px;
     text-align: center;
     animation: fadeIn .5s ease-in;
 }
@@ -741,7 +731,7 @@ p {
     }
 
     .quicklinks {
-        padding-top: 10px;
+        padding-top: 0px;
         padding-bottom: 10px;
     }
 
