@@ -37,9 +37,11 @@ p {
     justify-content: end;
     align-items: end;
 }
+
 .menu {
     padding-right: 20px;
 }
+
 .navbar a {
     text-decoration: none;
     font-size: 13px;
@@ -53,23 +55,36 @@ p {
 
 .greetingshello {
     background-image: url("img/office1.png");
-    background-size: cover;
+    background-size: 600px;
     background-position: center;
-    height: 75vh;
+    height: 100vh;
     padding-top: 100px;
-    animation: fadeIn .5s ease-in;
+    animation: fadeIn .2s ease-in;
 }
 
-.greetingshello h1 {
+.imagedescription {
+    margin: auto;
+    padding: 8px;
+    max-width: 350px;
+    background-color: #e0f4db95;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.imagedescription p {
+    color: rgb(69, 69, 69);
+    text-wrap: balance;
+}
+
+.intro h1 {
+    margin-top: 20px;
     font-family: 'DM Sans', sans-serif;
-    font-size: 55px;
+    font-size: 45px;
     letter-spacing: -2px;
     font-weight: 600;
-    color: #232323;
-    justify-content: center;
-    align-items: center;
+    color: #e25d48;
     text-align: center;
-    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.224);
+    animation: slideInUp .5s ease-in;
 }
 
 .greetings a {
@@ -93,7 +108,8 @@ p {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 20px;
-    animation: fadeIn .5s ease-in;
+    animation: slideInUp 1s ease-in;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .container {
@@ -101,17 +117,11 @@ p {
 }
 
 .container p {
-    color:#3B3638;
+    color: #3B3638;
     padding: 10px;
     font-size: 12px;
-    background: linear-gradient(to bottom right, #ffefdf94, #e0be95af);
-    border-radius: 15px;
-    box-shadow:
-        0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075),
-        0 4px 4px hsl(0deg 0% 0% / 0.050),
-        0 8px 8px hsl(0deg 0% 0% / 0.0),
-        0 16px 16px hsl(0deg 0% 0% / 0.0);
+    background-color: #e0f4dbb7;
+    border-radius: 10px;
 }
 
 .highlight {
@@ -204,18 +214,9 @@ p {
 }
 
 .lansangitemimg img:hover {
-    animation: headShake 1s ease-in-out;
-}
-
-.lansangitem a {
-    color: #DD4BB4;
-    font-weight: 500;
-}
-
-.lansangitem a:hover {
-    color: #3b36386b;
-    text-decoration: none;
-    transition: .1s ease-in;
+    transform: scale(1.03);
+    transform-origin: center center;
+    transition: transform 0.3s ease;
 }
 
 .metadata p {
@@ -304,7 +305,9 @@ p {
 }
 
 .globaltpimg img:hover {
-    animation: headShake 1s ease-in-out;
+    transform: scale(1.03);
+    transform-origin: center center;
+    transition: transform 0.3s ease;
 }
 
 .mindfulmed {
@@ -411,7 +414,7 @@ p {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -421,42 +424,12 @@ p {
     color: #585053;
     padding: 10px;
     font-size: 12px;
-    background: linear-gradient(to bottom right, #ffefdf94, #e0be95af);
-    border-radius: 15px;
-    box-shadow:
-        0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075),
-        0 4px 4px hsl(0deg 0% 0% / 0.050),
-        0 8px 8px hsl(0deg 0% 0% / 0.0),
-        0 16px 16px hsl(0deg 0% 0% / 0.0);
+    background-color: #dbf6dde3;
+    border-radius: 10px;
 }
-
-.contactwrapper {
-    padding-top: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 20px;
-    max-width: 700px;
-    margin: auto;
-    animation: bounceInRight 1s ease-in;
-}
-
-.contactcontent {
-    display: none;
-    grid-template-columns: 1fr 2fr;
-    background: linear-gradient(to bottom right, #e1ffa0ae, #ea9a0596);
-    padding: 100px;
-    max-width: 1000px;
-    margin: 10px auto;
-    text-align: center;
-    text-wrap: balance;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.109);
-}
-
-.profilepic img {
-    max-width: 150px;
-    border-radius: 50%;
+.secondrow a {
+    text-decoration: none;
+    color:#e25d48;
 }
 
 .quicklinks {
@@ -493,13 +466,9 @@ p {
         font-size: 12px;
     }
 
-    .greetingshello h1 {
-        font-size: 35px;
-        padding-top: 30px;
-    }
-
-    .greetingshello {
-        height: 50vh;
+    .intro h1 {
+        font-size: 40px;
+        padding: 10px;
     }
 
     .greetings {
@@ -541,13 +510,9 @@ p {
         font-size: 12px;
     }
 
-    .greetingshello h1 {
-        font-size: 35px;
-        padding-top: 30px;
-    }
-
-    .greetingshello {
-        height: 50vh;
+    .intro h1 {
+        font-size: 40px;
+        padding: 10px;
     }
 
     .greetings {
@@ -589,13 +554,9 @@ p {
         font-size: 12px;
     }
 
-    .greetingshello h1 {
-        font-size: 35px;
-        padding-top: 20px;
-    }
-
-    .greetingshello {
-        height: 50vh;
+    .intro h1 {
+        font-size: 40px;
+        padding: 10px;
     }
 
     .greetings {
@@ -638,13 +599,9 @@ p {
 
     }
 
-    .greetingshello h1 {
-        font-size: 35px;
-        padding-top: 20px;
-    }
-
-    .greetingshello {
-        height: 50vh;
+    .intro h1 {
+        font-size: 38px;
+        padding: 10px;
     }
 
     .greetings {
@@ -686,12 +643,9 @@ p {
         font-size: 12px;
     }
 
-    .greetingshello {
-        height: 50vh;
-    }
-
-      .greetingshello h1 {
-        font-size: 40px;
+    .intro h1 {
+        font-size: 38px;
+        padding: 10px;
     }
 
     .greetings {
@@ -723,9 +677,11 @@ p {
     .globaltpimg img:hover {
         animation: none;
     }
+
     .mindfulmed:hover .mindfulmedimg img {
         transform: none;
     }
+
     .collective:hover .collectiveimg img {
         transform: none;
     }
