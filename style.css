@@ -13,6 +13,7 @@ p {
     font-size: 14px;
     font-weight: 400;
     color: #3B3638;
+    line-height: 25px;
 }
 
 .first {
@@ -62,7 +63,6 @@ p {
 
 .greetings p {
     letter-spacing: -.2px;
-    line-height: 25px;
     padding-top: 10px;
     text-align: left;
     text-wrap: balance;
@@ -75,7 +75,7 @@ p {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 20px;
-    animation: slideInUp 1s ease-in;
+    animation: fadeInUp 1s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -84,14 +84,14 @@ p {
     width: 100%;
     padding-top: 30px;
     text-align: left;
+    animation: fadeInUp 1s ease-in;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .upcomingprojectstext {
     padding-left: 100px;
     padding-right: 100px;
     max-width: 700px;
-    animation: slideInUp 2s ease-in;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .upcomingprojectstext h1 {
@@ -143,12 +143,13 @@ p {
 
 .lansangitemcontainer h1 {
     color: #3B3638;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 .lansangitemcontainer p {
     font-size: 13px;
+    line-height: 18px;
     color: #3B3638;
     text-wrap: balance;
 }
@@ -222,6 +223,7 @@ p {
 
 .globaltpcontainer p {
     font-size: 13px;
+    line-height: 20px;
     color: #3B3638;
     text-wrap: balance;
 }
@@ -370,8 +372,8 @@ p {
     color: #585053;
     padding: 10px;
     font-size: 12px;
-    background-color: #dbf6dde3;
     border-radius: 10px;
+    border: 1px solid #bfecb3;
 }
 
 .secondrow a {
@@ -408,6 +410,9 @@ p {
     font-size: 10px;
 }
 
+
+
+
 @media (max-width: 430px) {
     .navbar a {
         font-size: 12px;
@@ -423,7 +428,7 @@ p {
         padding-right: 25px;
         padding-top: 20px;
         padding-bottom: 20px;
-    }
+    }.upcomingprojects
 
     .upcomingprojects {
         padding-top: 15px;
