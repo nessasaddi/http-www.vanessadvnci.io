@@ -23,7 +23,8 @@
 
 <style>
     body {
-        background-color: #f7f7f7;
+        background-color: rgb(252, 252, 252);
+        height: 100vh;
     }
     p {
         color: #3B3638;
@@ -43,7 +44,7 @@
 
     .home a {
         text-decoration: none;
-        color: #e414a6a7;
+        color: #e25d48;
         font-size: 13px;
         font-weight: 600;
     }
@@ -53,10 +54,12 @@
         padding: 20px;
         border-radius: 15px;
         animation: fadeIn .5s ease-in;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         text-align: center;
     }
     .howtobook h1 {
         line-height: 25px;
+        color: #3B3638;
     }
 
     .metadata {
@@ -64,48 +67,35 @@
         color: #b4abae;
         font-weight: 200;
         animation: fadeIn 1s ease-in;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 
     .instruction {
-        background-color: #ffffffeb;
+        border-radius: 10px;
+        border: 1px solid #bfecb3;
         margin-bottom: 10px;
         padding: 20px;
         border-radius: 15px;
-        animation: fadeIn 1s ease-in;
-        box-shadow:
-        0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075),
-        0 4px 4px hsl(0deg 0% 0% / 0.050),
-        0 8px 8px hsl(0deg 0% 0% / 0.0),
-        0 16px 16px hsl(0deg 0% 0% / 0.0);
+        animation: slideInLeft 1s ease-in;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 
     .instructiontwo {
-        background-color: #ffffffe3;
         margin-bottom: 10px;
         padding: 20px;
         border-radius: 15px;
-        animation: fadeIn 1.5s ease-in;
-        box-shadow:
-        0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075),
-        0 4px 4px hsl(0deg 0% 0% / 0.050),
-        0 8px 8px hsl(0deg 0% 0% / 0.0),
-        0 16px 16px hsl(0deg 0% 0% / 0.0);
+        animation: slideInRight 1s ease-in;
+        border-radius: 10px;
+        border: 1px solid #bfecb3;
     }
 
     .details {
-        background-color: #ffffffe3;
+        border-radius: 10px;
+        border: 1px solid #bfecb3;
         margin-bottom: 10px;
         padding: 20px;
         border-radius: 15px;
-        animation: fadeIn 2s ease-in;
-        box-shadow:
-        0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075),
-        0 4px 4px hsl(0deg 0% 0% / 0.050),
-        0 8px 8px hsl(0deg 0% 0% / 0.0),
-        0 16px 16px hsl(0deg 0% 0% / 0.0);
+        animation: slideInLeft 1s ease-in;
     }
 
     .quicklinks {

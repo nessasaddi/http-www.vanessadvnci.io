@@ -32,7 +32,7 @@ p {
 
 .navbarlinks {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     justify-content: end;
     align-items: end;
@@ -122,11 +122,6 @@ p {
     font-size: 12px;
     background-color: #e0f4dbb7;
     border-radius: 10px;
-}
-
-.highlight {
-    color: #E61D1C;
-    font-weight: 500;
 }
 
 .upcomingprojects {
