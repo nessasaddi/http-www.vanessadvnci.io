@@ -2,21 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Palanquin', sans-serif;
-}
-
 h1 {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 40px;
-    letter-spacing: -2px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
     color: #3B3638;
 }
 
-
 p {
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
+    font-weight: 400;
     color: #3B3638;
 }
 
@@ -32,14 +27,18 @@ p {
 
 .navbarlinks {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
     justify-content: end;
     align-items: end;
 }
 
 .menu {
+    color: #e25d48;
     padding-right: 20px;
+    animation: tada 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
 }
 
 .navbar a {
@@ -50,51 +49,20 @@ p {
 }
 
 .navbar a:hover {
-    color: #8d8d8d;
-}
-
-.greetingshello {
-    background-image: url("img/office1.png");
-    background-size: 600px;
-    background-position: center;
-    height: 100vh;
-    padding-top: 100px;
-    animation: fadeIn .2s ease-in;
-}
-
-.imagedescription {
-    margin: auto;
-    padding: 8px;
-    max-width: 350px;
-    background-color: #e0f4db95;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.imagedescription p {
-    color: rgb(69, 69, 69);
-    text-wrap: balance;
-}
-
-.intro h1 {
-    margin-top: 20px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 45px;
-    letter-spacing: -2px;
-    font-weight: 600;
     color: #e25d48;
-    text-align: center;
-    animation: slideInUp .5s ease-in;
+    transition: .5s;
 }
 
 .greetings a {
     color: #e25d48;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
 
 }
 
 .greetings p {
+    letter-spacing: -.2px;
+    line-height: 25px;
     padding-top: 10px;
     text-align: left;
     text-wrap: balance;
@@ -103,7 +71,6 @@ p {
 .greetings {
     background: transparent;
     max-width: 700px;
-    margin: auto;
     padding-top: 20px;
     padding-left: 100px;
     padding-right: 100px;
@@ -112,50 +79,38 @@ p {
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.container {
-    padding: 0px;
-}
-
-.container p {
-    color: #3B3638;
-    padding: 10px;
-    font-size: 12px;
-    background-color: #e0f4dbb7;
-    border-radius: 10px;
-}
-
 .upcomingprojects {
     background: linear-gradient(to bottom right, #a0c6ff, #EE8877);
-    max-width: 100%;
+    width: 100%;
     padding-top: 30px;
-    margin: auto;
     text-align: left;
 }
 
 .upcomingprojectstext {
-    margin: auto;
-    animation: fadeIn 1s ease-in;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 0px;
-    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 700px;
+    animation: slideInUp 2s ease-in;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .upcomingprojectstext h1 {
-    padding: 20px;
-    max-width: 600px;
+    padding-bottom: 10px;
     margin: auto;
     color: white;
-    font-size: 40px;
-    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .upcomingprojectstext p {
-    max-width: 600px;
-    margin: auto;
     color: white;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
+}
+
+.owl-carousel {
+    padding-left: 100px;
 }
 
 .projects {
@@ -173,8 +128,7 @@ p {
     border-radius: 20px;
     max-width: 550px;
     max-height: 430px;
-    margin-left: 10px;
-    animation: fadeIn .5s;
+    animation: fadeIn 2s ease-in-out;
 
 }
 
@@ -184,15 +138,13 @@ p {
 
 .lansangitemcontainer {
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .lansangitemcontainer h1 {
-    font-family: 'DM Sans', sans-serif;
     color: #3B3638;
-    font-size: 33px;
-    letter-spacing: -2px;
-    line-height: 30px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .lansangitemcontainer p {
@@ -216,6 +168,7 @@ p {
 
 .metadata p {
     color: #3b36386b;
+    font-size: 12px;
 }
 
 .socials {
@@ -257,10 +210,9 @@ p {
 }
 
 .globaltpcontainer h1 {
-    font-family: 'DM Sans', sans-serif;
     color: #3B3638;
-    font-size: 33px;
-    letter-spacing: -2px;
+    font-size: 20px;
+    letter-spacing: -1px;
     line-height: 30px;
 }
 
@@ -274,9 +226,10 @@ p {
     text-wrap: balance;
 }
 
+.globaltp,
 .globaltpcontainer a {
     font-size: 13px;
-    color: #DD4BB4;
+    color: #e25d48;
     font-weight: 500;
 }
 
@@ -318,27 +271,25 @@ p {
 .mindfulmedcontainer {
     position: relative;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(255, 255, 255, 0.67);
 }
 
 .mindfulmedcontainer h1 {
-    font-family: 'DM Sans', sans-serif;
-    color: white;
-    font-size: 33px;
-    letter-spacing: -2px;
+    color: #3B3638;
+    font-size: 25px;
+    font-weight: 400;
     line-height: 30px;
     text-align: center;
     margin-top: 50px;
-    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
+    letter-spacing: -1px;
 }
 
 .mindfulmedcontainer p {
     font-size: 14px;
-    font-weight: 500;
-    color: white;
+    font-weight: 400;
+    color: #3B3638;
     text-wrap: balance;
     text-align: center;
-    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
 }
 
 .mindfulmedimg img {
@@ -422,9 +373,10 @@ p {
     background-color: #dbf6dde3;
     border-radius: 10px;
 }
+
 .secondrow a {
     text-decoration: none;
-    color:#e25d48;
+    color: #e25d48;
 }
 
 .quicklinks {
@@ -484,19 +436,13 @@ p {
     }
 
     .upcomingprojectstext h1 {
-        font-size: 30px;
+        font-size: 15px;
         font-weight: 600;
     }
 
-    .quicklinks {
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-
-    .quicklinks a {
-        margin-left: 7px;
-        font-size: 13px;
-        font-weight: 600;
+    .owl-carousel {
+        padding-left: 20px;
+        padding-right: 0px;
     }
 }
 
@@ -527,20 +473,9 @@ p {
         padding-right: 20px;
     }
 
-    .upcomingprojectstext h1 {
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .quicklinks {
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-
-    .quicklinks a {
-        margin-left: 7px;
-        font-size: 13px;
-        font-weight: 600;
+    .owl-carousel {
+        padding-left: 20px;
+        padding-right: 0px;
     }
 }
 
@@ -571,20 +506,9 @@ p {
         padding-right: 20px;
     }
 
-    .upcomingprojectstext h1 {
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .quicklinks {
-        padding-top: 20px;
-        padding-bottom: 10px;
-    }
-
-    .quicklinks a {
-        margin-left: 5px;
-        font-size: 12px;
-        font-weight: 600;
+    .owl-carousel {
+        padding-left: 20px;
+        padding-right: 0px;
     }
 }
 
@@ -594,11 +518,6 @@ p {
 
     }
 
-    .intro h1 {
-        font-size: 38px;
-        padding: 10px;
-    }
-
     .greetings {
         padding-left: 25px;
         padding-right: 25px;
@@ -616,20 +535,9 @@ p {
         padding-right: 20px;
     }
 
-    .upcomingprojectstext h1 {
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .quicklinks {
-        padding-top: 20px;
-        padding-bottom: 10px;
-    }
-
-    .quicklinks a {
-        margin-left: 5px;
-        font-size: 12px;
-        font-weight: 600;
+    .owl-carousel {
+        padding-left: 20px;
+        padding-right: 0px;
     }
 }
 
@@ -638,11 +546,6 @@ p {
         font-size: 12px;
     }
 
-    .intro h1 {
-        font-size: 38px;
-        padding: 10px;
-    }
-
     .greetings {
         padding-left: 25px;
         padding-right: 25px;
@@ -650,8 +553,8 @@ p {
         padding-bottom: 20px;
     }
 
-    .upcomingprojects {
-        padding-top: 15px;
+    .upcomingprojectstext h1 {
+        font-size: 15px;
     }
 
     .upcomingprojectstext {
@@ -660,9 +563,9 @@ p {
         padding-right: 20px;
     }
 
-    .upcomingprojectstext h1 {
-        font-size: 30px;
-        font-weight: 600;
+    .owl-carousel {
+        padding-left: 20px;
+        padding-right: 0px;
     }
 
     .lansangitemimg img:hover {
@@ -679,16 +582,5 @@ p {
 
     .collective:hover .collectiveimg img {
         transform: none;
-    }
-
-    .quicklinks {
-        padding-top: 0px;
-        padding-bottom: 10px;
-    }
-
-    .quicklinks a {
-        margin-left: 5px;
-        font-size: 12px;
-        font-weight: 600;
     }
 }
