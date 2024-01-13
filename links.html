@@ -242,7 +242,7 @@
             </a>
 
             <div class="dropdown">
-                <div class="dropdownlink">Tattoo v</div>
+                <div class="dropdownlink" onclick="toggleDropdown()">Tattoo v</div>
                 <div class="dropdown-content">
                     <a href="tattoos.html" target="_blank">Book an Appointment</a>
                     <a href="Aftercare.html">Aftercare</a>
@@ -271,7 +271,16 @@
 </body>
 
 
-
+<script>
+    function toggleDropdown() {
+  var dropdownContent = document.querySelector(".dropdown-content");
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+  } else {
+    dropdownContent.style.display = "block";
+  }
+}
+</script>
 
 <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
