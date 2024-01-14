@@ -43,28 +43,41 @@
             border-radius: 50%;
             max-width: 120px;
             margin: 0px;
+            filter: contrast(90%);
         }
 
         .wrapper h1 {
-            font-size: 30px;
-            font-family: 'Palanquin', sans-serif;
-            font-weight: 500;
-            color: #3B3638;
             margin: 0px;
+        }
+
+        .name h1 {
+            font-family: 'Rubik', sans-serif;
+            font-size: 65px;
+            font-weight: 400;
+            background: linear-gradient(to right, #a0c6ff, #BFECB3);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -3px;
+            padding: 0px;
         }
 
         .title {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 5px;
-            margin-left: 75px;
-            margin-right: 75px;
+            margin-left: 50px;
+            margin-right: 50px;
         }
 
         .dev p {
-            color: #e25d48;
+            color: #E25D48;
             font-size: 13px;
             font-family: 'Palanquin', sans-serif;
+            border: 1px solid #e25d482e;
+            background-color: #e25d481b;
+            padding: 5px;
+            border-radius: 2px;
         }
 
         .link {
@@ -74,19 +87,19 @@
             margin-top: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
-            border-radius: 10px;
-            border: 1px solid #bfecb3;
+            border-radius: 3px;
+            border: 1px solid #BFECB3;
         }
 
         .linky {
-            background-color: #e0f4dbb7;
+            background-color: #bfecb372;
             font-family: 'DM Sans', sans-serif;
             color: #3B3638;
             font-size: 14px;
             margin-top: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
-            border-radius: 10px;
+            border-radius: 3px;
             border: 1px solid #bfecb3;
         }
 
@@ -105,14 +118,14 @@
         }
 
         .dropdownlink {
-            background-color: #e0f4dbb7;
+            background-color: #bfecb372;
             font-family: 'DM Sans', sans-serif;
             color: #3B3638;
             font-size: 14px;
             margin-top: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
-            border-radius: 10px;
+            border-radius: 3px;
             border: 1px solid #bfecb3;
             cursor: help;
         }
@@ -124,7 +137,7 @@
             border: 1px solid #bfecb3;
             max-width: 100%;
             z-index: 1;
-            border-radius: 10px;
+            border-radius: 3px;
         }
 
         /* dropdown content links */
@@ -139,8 +152,6 @@
         }
 
         .dropdown-content a:hover {
-            color: #e25d48;
-            border-radius: 20px;
             cursor: help;
             transition: .5s;
         }
@@ -223,10 +234,10 @@
 
     <div class="wrapper wow">
         <div class="profilepicture">
-            <img src="img/mimi2.jpg">
+            <img src="img/mimi4.png">
         </div>
         <div class="name">
-            <h1>@vanessadvnci</h1>
+            <h1>vanessa</h1>
         </div>
         <div class="title">
             <span class="dev">
@@ -242,7 +253,7 @@
             </a>
 
             <div class="dropdown">
-                <div class="dropdownlink" onclick="toggleDropdown()">Tattoo v</div>
+                <div class="dropdownlink" onclick="toggleDropdown()">Tattoo</div>
                 <div class="dropdown-content">
                     <a href="tattoos.html" target="_blank">Book an Appointment</a>
                     <a href="Aftercare.html">Aftercare</a>

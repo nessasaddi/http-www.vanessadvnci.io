@@ -63,14 +63,15 @@ p {
 
 .greetings p {
     letter-spacing: -.2px;
-    padding-top: 10px;
+    padding: 10px;
     text-align: left;
-    text-wrap: balance;
+    border-radius: 10px;
+    border: 1px solid #bfecb3;
 }
 
 .greetings {
     background: transparent;
-    max-width: 700px;
+    max-width: 1000px;
     padding-top: 20px;
     padding-left: 100px;
     padding-right: 100px;
@@ -80,7 +81,7 @@ p {
 }
 
 .upcomingprojects {
-    background: linear-gradient(to bottom right, #a0c6ff, #EE8877);
+    background: linear-gradient(to bottom right, #a0c6ff, #E25D48);
     width: 100%;
     padding-top: 30px;
     text-align: left;
@@ -91,7 +92,7 @@ p {
 .upcomingprojectstext {
     padding-left: 100px;
     padding-right: 100px;
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 .upcomingprojectstext h1 {
@@ -104,6 +105,7 @@ p {
 }
 
 .upcomingprojectstext p {
+    letter-spacing: -.2px;
     color: white;
     font-size: 14px;
     text-align: left;
@@ -360,18 +362,16 @@ p {
 
 .secondrow {
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 400px;
-    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1000px;
 }
 
 .secondrow p {
-    text-align: center;
     text-wrap: balance;
     color: #585053;
     padding: 10px;
-    font-size: 12px;
+    font-size: 13px;
     border-radius: 10px;
     border: 1px solid #bfecb3;
 }
@@ -428,7 +428,7 @@ p {
         padding-right: 25px;
         padding-top: 20px;
         padding-bottom: 20px;
-    }.upcomingprojects
+    }
 
     .upcomingprojects {
         padding-top: 15px;
@@ -448,6 +448,17 @@ p {
     .owl-carousel {
         padding-left: 20px;
         padding-right: 0px;
+    }
+    .secondrow {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+    }
+    
+    .secondrow p {
+        text-wrap: balance;
+        padding: 10px;
     }
 }
 
@@ -482,6 +493,17 @@ p {
         padding-left: 20px;
         padding-right: 0px;
     }
+    .secondrow {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+    }
+    
+    .secondrow p {
+        text-wrap: balance;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 393px) {
@@ -515,6 +537,17 @@ p {
         padding-left: 20px;
         padding-right: 0px;
     }
+    .secondrow {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+    }
+    
+    .secondrow p {
+        text-wrap: balance;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 390px) {
@@ -544,6 +577,17 @@ p {
         padding-left: 20px;
         padding-right: 0px;
     }
+    .secondrow {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+    }
+    
+    .secondrow p {
+        text-wrap: balance;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -552,10 +596,10 @@ p {
     }
 
     .greetings {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
 
     .upcomingprojectstext h1 {
@@ -587,5 +631,17 @@ p {
 
     .collective:hover .collectiveimg img {
         transform: none;
+    }
+
+    .secondrow {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+    }
+    
+    .secondrow p {
+        text-wrap: balance;
+        padding: 10px;
     }
 }
