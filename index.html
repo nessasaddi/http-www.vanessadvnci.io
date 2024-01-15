@@ -14,7 +14,10 @@
 
  <!-- Google Fonts -->
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Palanquin:wght@400;500;700&display=swap">
+
  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap">
 
    <!-- micron.js -->
  <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
@@ -36,28 +39,23 @@
         }
 
         .body h3 {
-            font-family: 'Rubik', sans-serif;
-            font-size: 30px;
-            font-weight: 500;
-            background: linear-gradient(to right, #a0c6ff, #BFECB3);
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 25px;
+            font-weight: 300;
+            background: linear-gradient(to bottom, white, #000000);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            letter-spacing: -3px;
+            letter-spacing: 0px;
             padding: 0px;
             margin-top: 300px;
-        }
-        .body p {
-            font-family: 'Rubik', sans-serif;
-            font-size: 13px;
             animation: flash .5s ease-in;
-            animation-delay: 2s;
-            margin-top: -10px;
-            margin-bottom: 20px;
+            animation-delay: 1s;
         }
 
         .loader {
-            animation: fadeIn 2s ease-in;
+            animation: fadeIn 1s ease-in;
+            color: #e25d48;
 
         }
         @media (max-width: 500px) {
@@ -85,7 +83,6 @@
 <body>
 <div class="body">
     <h3>vanessadvnci.io</h3>
-    <p>welcome</p>
 </div>
 
 <div class="loader">
@@ -101,7 +98,7 @@
     function redirectToHomepage() {
         window.location.href = 'home.html';
     }
-    var duration = 3500;
+    var duration = 3000;
     setTimeout(redirectToHomepage, duration);
   </script>
 
