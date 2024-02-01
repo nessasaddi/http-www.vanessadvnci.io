@@ -54,6 +54,11 @@ p {
     transition: .5s;
 }
 
+.acuity {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .greetings a {
     color: #e25d48;
     font-weight: 400;
