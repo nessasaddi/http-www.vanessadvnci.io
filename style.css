@@ -57,6 +57,8 @@ p {
 .acuity {
     text-align: center;
     margin-bottom: 40px;
+    animation: fadeInUp 2s;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .greetings a {
