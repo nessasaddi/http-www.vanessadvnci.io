@@ -58,7 +58,7 @@ p {
     text-align: center;
     margin-bottom: 40px;
     animation: fadeInUp 2s;
-        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .greetings a {
@@ -116,255 +116,6 @@ p {
     color: white;
     font-size: 14px;
     text-align: left;
-}
-
-.owl-carousel {
-    padding-left: 100px;
-}
-
-.projects {
-    max-width: 100%;
-    margin: auto;
-    padding-bottom: 20px;
-    scroll-behavior: smooth;
-}
-
-.lansangitem {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-    background: linear-gradient(to bottom right, #e4f9ffd0, #fff0cdbc);
-    border-radius: 20px;
-    max-width: 550px;
-    max-height: 430px;
-    animation: fadeIn 2s ease-in-out;
-
-}
-
-.lansangitem:hover {
-    background: linear-gradient(to bottom right, #e4f9ffd0, #f2deafbc);
-}
-
-.lansangitemcontainer {
-    padding-left: 20px;
-    padding-top: 30px;
-}
-
-.lansangitemcontainer h1 {
-    color: #3B3638;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.lansangitemcontainer p {
-    font-size: 13px;
-    line-height: 18px;
-    color: #3B3638;
-    text-wrap: balance;
-}
-
-.lansangitemimg img {
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-}
-
-.lansangitemimg img:hover {
-    transform: scale(1.03);
-    transform-origin: center center;
-    transition: transform 0.3s ease;
-}
-
-.metadata p {
-    color: #3b36386b;
-    font-size: 12px;
-}
-
-.socials {
-    display: flex;
-    justify-content: start;
-}
-
-.socialicons img {
-    max-width: 35px;
-    margin-right: 20px;
-}
-
-.socialicons img:hover {
-    max-width: 40px;
-    transition: .1s ease-in;
-}
-
-.globaltp {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    background: linear-gradient(to bottom right, #a0eaffd0, #fff0cdbc);
-    border-radius: 20px;
-    max-width: 400px;
-    height: 420px;
-    margin-left: 10px;
-    animation: fadeIn .5s;
-    overflow: hidden;
-}
-
-.globaltp:hover {
-    background: linear-gradient(to bottom right, #a0eaffd0, #efddb3bc);
-}
-
-.globaltpcontainer {
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-}
-
-.globaltpcontainer h1 {
-    color: #3B3638;
-    font-size: 20px;
-    letter-spacing: -1px;
-    line-height: 30px;
-}
-
-.globaltpcontainer .metadata p {
-    color: #3b36386b;
-}
-
-.globaltpcontainer p {
-    font-size: 13px;
-    line-height: 20px;
-    color: #3B3638;
-    text-wrap: balance;
-}
-
-.globaltp,
-.globaltpcontainer a {
-    font-size: 13px;
-    color: #e25d48;
-    font-weight: 500;
-}
-
-.globaltpcontainer a:hover {
-    color: #3b36386b;
-    text-decoration: none;
-    transition: .1s ease-in;
-}
-
-.globaltpimg {
-    position: relative;
-    overflow: hidden;
-}
-
-.globaltpimg img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-}
-
-.globaltpimg img:hover {
-    transform: scale(1.03);
-    transform-origin: center center;
-    transition: transform 0.3s ease;
-}
-
-.mindfulmed {
-    position: relative;
-    border-radius: 20px;
-    max-width: 400px;
-    height: 420px;
-    margin-left: 10px;
-    animation: fadeIn .5s;
-    overflow: hidden;
-}
-
-.mindfulmedcontainer {
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.67);
-}
-
-.mindfulmedcontainer h1 {
-    color: #3B3638;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 50px;
-    letter-spacing: -1px;
-}
-
-.mindfulmedcontainer p {
-    font-size: 14px;
-    font-weight: 400;
-    color: #3B3638;
-    text-wrap: balance;
-    text-align: center;
-}
-
-.mindfulmedimg img {
-    position: absolute;
-    display: cover;
-    height: 100%;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.mindfulmed:hover .mindfulmedimg img {
-    transform: scale(1.1);
-    transform-origin: center center;
-    transition: transform 0.3s ease;
-}
-
-.collective {
-    position: relative;
-    border-radius: 20px;
-    max-width: 400px;
-    height: 420px;
-    margin-left: 10px;
-    animation: fadeIn .5s;
-    overflow: hidden;
-}
-
-.collectivecontainer {
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.308);
-}
-
-.collectivecontainer h1 {
-    font-family: 'DM Sans', sans-serif;
-    color: white;
-    font-size: 33px;
-    letter-spacing: -2px;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 50px;
-    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
-}
-
-.collectivecontainer p {
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-    text-wrap: balance;
-    text-align: center;
-    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.489);
-}
-
-.collectiveimg img {
-    position: absolute;
-    display: cover;
-    height: 100%;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.collective:hover .collectiveimg img {
-    transform: scale(1.1);
-    transform-origin: center center;
-    transition: transform 0.3s ease;
 }
 
 .secondrow {
@@ -452,17 +203,13 @@ p {
         font-weight: 600;
     }
 
-    .owl-carousel {
-        padding-left: 20px;
-        padding-right: 0px;
-    }
     .secondrow {
         padding-top: 15px;
         padding-left: 15px;
         padding-right: 15px;
         max-width: 100%;
     }
-    
+
     .secondrow p {
         text-wrap: balance;
         padding: 10px;
@@ -496,17 +243,13 @@ p {
         padding-right: 20px;
     }
 
-    .owl-carousel {
-        padding-left: 20px;
-        padding-right: 0px;
-    }
     .secondrow {
         padding-top: 15px;
         padding-left: 15px;
         padding-right: 15px;
         max-width: 100%;
     }
-    
+
     .secondrow p {
         text-wrap: balance;
         padding: 10px;
@@ -540,17 +283,13 @@ p {
         padding-right: 20px;
     }
 
-    .owl-carousel {
-        padding-left: 20px;
-        padding-right: 0px;
-    }
     .secondrow {
         padding-top: 15px;
         padding-left: 15px;
         padding-right: 15px;
         max-width: 100%;
     }
-    
+
     .secondrow p {
         text-wrap: balance;
         padding: 10px;
@@ -580,17 +319,13 @@ p {
         padding-right: 20px;
     }
 
-    .owl-carousel {
-        padding-left: 20px;
-        padding-right: 0px;
-    }
     .secondrow {
         padding-top: 15px;
         padding-left: 15px;
         padding-right: 15px;
         max-width: 100%;
     }
-    
+
     .secondrow p {
         text-wrap: balance;
         padding: 10px;
@@ -619,11 +354,6 @@ p {
         padding-right: 20px;
     }
 
-    .owl-carousel {
-        padding-left: 20px;
-        padding-right: 0px;
-    }
-
     .lansangitemimg img:hover {
         animation: none;
     }
@@ -646,7 +376,7 @@ p {
         padding-right: 15px;
         max-width: 100%;
     }
-    
+
     .secondrow p {
         text-wrap: balance;
         padding: 10px;
