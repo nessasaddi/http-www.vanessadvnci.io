@@ -64,26 +64,94 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
+            margin-top: 10px;
             letter-spacing: 0px;
             text-transform: uppercase;
             padding: 0px;
         }
 
         .title {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 5px;
-            margin-left: 50px;
-            margin-right: 50px;
+            display: flex;
+            gap: 7px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+            margin-left: 25px;
+            margin-right: 25px;
         }
 
-        .dev p {
+        .dev1 button{
+            background-color: transparent;
             color: #E25D48;
             font-size: 11px;
             font-family: 'Space Grotesk', sans-serif;
             border: 1px solid #e25d482e;
-            padding: 5px;
+            padding: 5px 15px;
             border-radius: 15px;
+            animation: tada .8s ease-in-out;
+            animation-iteration-count: 3;
+        }
+
+        .dev1 button:hover{
+            background-color: #E25D48;
+            color: white;
+            transition: .3s;
+        }
+
+        .dev2 {
+            color: #E25D48;
+            font-size: 11px;
+            font-family: 'Space Grotesk', sans-serif;
+            border: 1px solid #e25d482e;
+            padding: 5px 15px;
+            border-radius: 15px;
+        }
+
+        .lansangcontainer {
+            display: none;
+            background: linear-gradient(to bottom, #FFEABC, #FFCBBC);
+            border-radius: 30px;
+            padding: 10px;
+            margin-top: 20px;
+            animation: fadeInDown .5s;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        .lansanginfo h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 27px;
+            letter-spacing: -1px;
+        }
+
+        .lansanginfo img {
+            max-width: 100%;
+        }
+
+        .metadata p {
+            margin: 0px;
+            color: #0000004a;
+            font-size: 12px;
+            padding-bottom: 8px;
+        }
+
+        .lansangdescription {
+            padding: 5px;
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .socialicons img {
+            max-width: 35px;
+            margin-right: 20px;
+        }
+
+        .socialicons img:hover {
+            max-width: 40px;
+            transition: .1s ease-in;
         }
 
         .link {
@@ -127,7 +195,6 @@
             padding-bottom: 10px;
             border-radius: 3px;
             border: 1px solid #bfecb3;
-            cursor: help;
         }
 
         /* (initially hidden) */
@@ -258,18 +325,59 @@
             <img src="img/ourp.png">
         </div>
         <div class="name">
-            <h1>Vanessa</h1>
+            <h1>Vanessa Happi</h1>
         </div>
         <div class="title">
-            <span class="dev">
-                <p>Digital Manager</p>
+            <span class="dev1" id="dropdownButton">
+                <button onclick="toggleContent()">Digital Marketing</button>
+              </span>
+              <span class="dev2">
+                Frontend Dev.
             </span>
-            <span class="dev">
-                <p>Tattoo Artist</p>
+            <span class="dev2">
+                Tattoo Artist
             </span>
         </div>
-        <div class="linkscontainer">
 
+    <div class="lansangcontainer" id="dropdownContent">
+    <div class="lansanginfo">
+        <h1>Lansang Jiu-jitsu</h1>
+        <span class="metadata">
+            <p>(May 2023) Ongoing project.</p>
+        </span>
+            <img src="img/lsgphones.png">
+                       <div class="lansangdescription">
+                        <p>Explore award winning Lansang Jiu-Jitsu's digital realm (Carson Team), where I built their
+                            web pages, coordinate picture days, create content, and manage their social media accounts including Yelp!
+                            Connect with us on Instagram and Facebook for real-time updates.
+                        </p>
+                        </div>
+                        <div class="socials">
+                            <a class="socialicons" href="https://www.lansangjiujitsu-carson.com"
+                                target="_blank">
+                                <img src="img/lansangicon.png">
+                            </a>
+                            <a class="socialicons" href="https://www.instagram.com/lansangjiujitsu.carson"
+                                target="_blank">
+                                <img src="img/ig.png">
+                            </a>
+                            <a class="socialicons" href="https://www.facebook.com/profile.php?id=61551048907960"
+                                target="_blank">
+                                <img src="img/fb.png">
+                            </a>
+                            <a class="socialicons" href="https://www.yelp.com/biz/lansang-jiu-jitsu-carson-2"
+                                target="_blank">
+                                <img src="img/yelp.png">
+                            </a>
+                        </div>
+    </div>
+</div>
+
+
+
+
+
+        <div class="linkscontainer">
             <div class="dropdown">
                 <div class="dropdownlink" onclick="toggleDropdown()">Tattoos & Brows</div>
                 <div class="dropdown-content">
@@ -328,5 +436,15 @@
     new WOW().init();
 </script>
 
+<script>
+    function toggleContent() {
+      var content = document.getElementById("dropdownContent");
+      if (content.style.display === "none") {
+        content.style.display = "block";
+      } else {
+        content.style.display = "none";
+      }
+    }
+    </script>
 
 </html>
