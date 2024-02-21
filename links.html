@@ -71,8 +71,9 @@
         }
 
         .title {
-            display: flex;
-            gap: 7px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 3px;
             align-items: center;
             justify-content: center;
             margin-top: 0px;
@@ -84,7 +85,7 @@
             font-size: 11px;
             font-family: 'Space Grotesk', sans-serif;
             border: 1px solid #e25d482e;
-            padding: 5px 15px;
+            padding: 5px 10px;
             border-radius: 15px;
             animation: headShake 1s ease-in-out;
             animation-iteration-count: 3;
@@ -101,7 +102,7 @@
             font-size: 11px;
             font-family: 'Space Grotesk', sans-serif;
             border: 1px solid #e25d482e;
-            padding: 5px 15px;
+            padding: 5px 10px;
             border-radius: 15px;
         }
 
@@ -236,11 +237,6 @@
                 margin-top: 50px;
             }
 
-            .title {
-                margin-left: 30px;
-                margin-right: 30px;
-            }
-
             .quoteoftheday img {
                 max-width: 370px;
             }
@@ -318,7 +314,7 @@
                 <button onclick="toggleContent()">Digital Marketing</button>
             </span>
             <span class="dev2">
-                Frontend Dev.
+                Frontend
             </span>
             <span class="dev2">
                 Tattoo Artist
