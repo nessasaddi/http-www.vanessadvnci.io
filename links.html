@@ -33,7 +33,7 @@
             text-align: center;
             justify-content: center;
             margin: auto;
-            margin-top: 50px;
+            margin-top: 70px;
             max-width: 400px;
             animation: fadeIn 1s ease-in;
         }
@@ -58,7 +58,7 @@
 
         .name h1 {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 20px;
+            font-size: 50px;
             font-weight: 500;
             background: linear-gradient(to bottom right, rgb(130, 130, 130), #000000);
             -webkit-background-clip: text;
@@ -87,14 +87,14 @@
             border: 1px solid #e25d482e;
             padding: 5px 10px;
             border-radius: 15px;
-            animation: headShake 1s ease-in-out;
-            animation-iteration-count: 3;
+            animation: tada 2s ease-in-out;
+            animation-iteration-count: 1;
         }
 
         .dev1 button:hover {
             background-color: #E25D48;
             color: white;
-            transition: .3s;
+            transition: .1s;
         }
 
         .dev2 {
@@ -106,8 +106,14 @@
             border-radius: 15px;
         }
 
-        .lansangcontainer {
+        .firstcontainer {
             display: none;
+            margin-top: 20px;
+            animation: fadeInDown .5s;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        .lansanginfo {
             background: linear-gradient(to bottom, #FFEABC, #FFCBBC);
             border-radius: 30px;
             padding: 10px;
@@ -124,6 +130,14 @@
 
         .lansanginfo img {
             max-width: 100%;
+        }
+
+        .lansanginfo:hover {
+            transform: scale(1.01);
+            box-shadow: rgba(99, 99, 99, 
+            0.2) 0px 2px 8px 0px;
+            transition: .2s ease-in;
+        
         }
 
         .metadata p {
@@ -227,6 +241,18 @@
             background-color: #e0f4dbb7;
         }
 
+        .copyright {
+            margin-top: 100px;
+            text-align: center;
+            animation: fadeIn .5s ease-in;
+        }
+
+        .copyright p {
+            color: #3B3638;
+            letter-spacing: 1px;
+            font-size: 10px;
+        }
+
 
         @media (max-width: 1024px) {}
 
@@ -307,7 +333,7 @@
             <img src="img/ourp.png">
         </div>
         <div class="name">
-            <h1>Vanessa Happi</h1>
+            <h1>Vanessa</h1>
         </div>
         <div class="title">
             <span class="dev1" id="dropdownButton">
@@ -321,7 +347,12 @@
             </span>
         </div>
 
-        <div class="lansangcontainer" id="dropdownContent">
+        <div class="firstcontainer" id="dropdownContent">
+            <div class="aboutdigitalmarketing">
+                <p>I focus on creating engaging content and implement strategies to enhance brand visibility. I utilize various digital tools and platforms to drive traffic, generate leads, and optimize online presence.</p>
+            </div>
+
+
             <div class="lansanginfo">
                 <h1>Lansang Jiu-jitsu</h1>
                 <span class="metadata">
@@ -386,6 +417,10 @@
                 <div class="linky wow">Email</div>
             </a>
         </div>
+    </div>
+
+    <div class="copyright wow">
+        <p>&copy; 2023 VANESSADVNCI | All Rights Reserved.</p>
     </div>
 
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
