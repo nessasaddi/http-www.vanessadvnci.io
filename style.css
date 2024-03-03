@@ -7,7 +7,7 @@ body {
     max-width: 800px;
     align-items: center;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 h1 {
@@ -44,12 +44,12 @@ header {
 .hashtagstyle {
     text-transform: lowercase;
     background-color: #3b3638f0;
-    color: white;
+    color: #dad7ff;
     font-size: 13px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     padding: 4px 10px 4px 10px;
-    border-radius: 2px;
+    border-radius: 3px;
     line-height: 30px;
     text-wrap: nowrap;
     white-space: nowrap;
@@ -68,7 +68,7 @@ header {
 }
 
 .contact a {
-    color: #20a200;
+    color: #685cee;
 }
 
 .work {
@@ -90,13 +90,13 @@ header {
 
 .thingsidid {
     text-transform: lowercase;
-    border : 1px solid #3b3638;
+    border : 1px solid #685cee;
     color: #3b3638;
     font-size: 12px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     padding: 4px 10px 4px 10px;
-    border-radius: 2px;
+    border-radius: 3px;
     line-height: 30px;
     text-wrap: nowrap;
     white-space: nowrap;
