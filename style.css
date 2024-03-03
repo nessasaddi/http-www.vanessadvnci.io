@@ -2,17 +2,140 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #f1efe8;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 h1 {
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #3B3638;
+    font-weight: 400;
 }
 
 p {
     font-family: 'Rubik', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: #3B3638;
     line-height: 25px;
+    text-transform: lowercase;
+}
+.ongoing p {
+    color: #3b363847;
 }
 
+header {
+    text-align: left;
+    margin: auto;
+    padding-top: 100px;
+    max-width: 800px;
+}
+
+.hashtagwrap {
+    text-wrap: balance;
+    margin: 0 auto;
+}
+
+.hashtagstyle {
+    text-transform: lowercase;
+    background-color: #3b3638f0;
+    color: white;
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    padding: 4px 10px 4px 10px;
+    border-radius: 2px;
+    line-height: 30px;
+    text-wrap: nowrap;
+}
+
+.about {
+    text-align: left;
+    padding-top: 30px;
+    text-wrap: balance;
+}
+
+.contact {
+    text-align: left;
+    padding-top: 30px;
+    text-wrap: balance;
+}
+
+.work {
+    text-align: left;
+    padding-top: 30px;
+}
+
+.lansang {
+    background-color: #3b36381b;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+.lansang p {
+    margin: 0 auto;
+    text-wrap: balance;
+}
+
+.thingsidid {
+    text-transform: lowercase;
+    border : 1px solid #3b3638;
+    color: #3b3638;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    padding: 4px 10px 4px 10px;
+    border-radius: 2px;
+    line-height: 30px;
+    text-wrap: nowrap;
+}
+
+.collectivekinds {
+    background-color: #3b36381b;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.collectivekinds p {
+    margin: 0 auto;
+    text-wrap: balance;
+}
+
+.timmy {
+    background-color: #3b36381b;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.timmy p {
+    margin: 0 auto;
+    text-wrap: balance;
+}
+
+.mommi {
+    background-color: #3b36381b;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.mommi p {
+    margin: 0 auto;
+    text-wrap: balance;
+}
+
+
+
+
+
+.copyright {
+    margin-top: 300px;
+}
