@@ -26,7 +26,7 @@ p {
     text-transform: lowercase;
 }
 .ongoing p {
-    color: #3b363847;
+    color: #3b363824;
 }
 
 header {
@@ -56,29 +56,33 @@ header {
 
 .about {
     text-align: left;
-    padding-top: 30px;
+    padding-top: 10px;
     text-wrap: balance;
 }
 
 .contact {
     text-align: left;
-    padding-top: 30px;
+    padding-top: 10px;
     text-wrap: balance;
+}
+
+.contact a {
+    color: #20a200;
 }
 
 .work {
     text-align: left;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
-.lansang {
-    background-color: #3b36381b;
+.item {
+    background-color: #3b363811;
     padding: 10px;
     border-radius: 2px;
-    margin: 0 auto;
+    margin-top: 20px;
 }
 
-.lansang p {
+.item p {
     margin: 0 auto;
     text-wrap: balance;
 }
@@ -94,49 +98,17 @@ header {
     border-radius: 2px;
     line-height: 30px;
     text-wrap: nowrap;
-    white-space: nowrap;
 }
 
-.collectivekinds {
-    background-color: #3b36381b;
+.item2 {
+    background-color: #3b363841;
     padding: 10px;
     border-radius: 2px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
-
-.collectivekinds p {
-    margin: 0 auto;
-    text-wrap: balance;
-}
-
-.timmy {
-    background-color: #3b36381b;
-    padding: 10px;
-    border-radius: 2px;
-    margin-top: 15px;
-}
-
-.timmy p {
-    margin: 0 auto;
-    text-wrap: balance;
-}
-
-.mommi {
-    background-color: #3b36381b;
-    padding: 10px;
-    border-radius: 2px;
-    margin-top: 15px;
-}
-
-.mommi p {
-    margin: 0 auto;
-    text-wrap: balance;
-}
-
-
-
 
 
 .copyright {
+    text-align: center;
     margin-top: 300px;
 }
