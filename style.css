@@ -52,6 +52,7 @@ header {
     border-radius: 2px;
     line-height: 30px;
     text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .about {
