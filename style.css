@@ -18,6 +18,14 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #3B3638;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 p {
     font-family: 'Rubik', sans-serif;
     font-size: 13px;
