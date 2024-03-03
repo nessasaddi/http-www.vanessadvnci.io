@@ -18,6 +18,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <link rel="icon" href="img/3.png" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
@@ -50,9 +52,11 @@
 <div class="work">
     <h2>recent work:</h2>
 
-    <div class="item">
+    <div class="item" onclick="toggleLinks()">
         <p><b>Lansang Jiu-Jitsu:</b>
-            <br>Explore award winning Lansang Jiu-Jitsu's digital realm (Carson Team), where all they have to do is keep shining! I focus on creating engaging content and implementing strategies to enhance brand visibility. I utilize various digital tools and platforms to drive traffic, generate leads, and optimize online presence <i>organically.</i>
+            <br>I focus on creating engaging content and implementing strategies to enhance brand visibility. I utilize
+            various digital tools and platforms to drive traffic, generate leads, and optimize online presence
+            <i>organically.</i>
         </p>
         <div class="hashtagwrap">
             <span class="thingsidid">Web Development</span>
@@ -64,6 +68,24 @@
             <span class="thingsidid">Canva</span>
         </div>
     </div>
+
+    <div class="lansanglinks-container">
+        <p>Explore award winning Lansang Jiu-Jitsu's digital realm, where all they have to do is keep shining!</p>
+        <div class="lansanglinks">
+            <a href="https://www.instagram.com/lansangjiujitsu.carson"
+            target="_blank"><i class="fa-solid fa-globe fa-xl" style="color: #3B3638;"></i></a>
+
+            <a href="https://www.instagram.com/lansangjiujitsu.carson"
+            target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #3B3638;"></i></a>
+
+            <a href="https://www.yelp.com/biz/lansang-jiu-jitsu-carson-2"
+            target="_blank"><i class="fa-brands fa-yelp fa-xl" style="color: #3B3638;"></i></a>
+
+            <a href="https://www.facebook.com/profile.php?id=61551048907960"
+            target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #3B3638;"></i></a>
+
+        </div>
+     </div>
 
     <div class="item">
         <p><b>Collective Kinds:</b>
@@ -111,10 +133,16 @@
 <p>&copy; 2024 VANESSADVNCI | All Rights Reserved.</p>
 </div>
 
+<script src="https://kit.fontawesome.com/bdc83d4842.js" crossorigin="anonymous"></script>
 
-
-
-
+<script>
+    function toggleLinks() {
+    var linksContainer = document.querySelector('.lansanglinks-container');
+    linksContainer.style.display = (linksContainer.style.display === 'block') ? 'none' : 'block';
+}
+</script>
 </body>
+
+
 
 </html>
