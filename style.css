@@ -71,7 +71,7 @@ header h1 {
 
 .contact {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     align-items: center;
     margin: 0 auto;
 }
