@@ -33,6 +33,10 @@ p {
     text-transform: lowercase;
 }
 
+.mylinks-wrapper a{
+    margin-right: 10px;
+}
+
 header {
     text-align: left;
     margin: auto;
