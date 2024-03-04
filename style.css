@@ -70,6 +70,8 @@ header h1 {
 }
 
 .contact {
+    display: flex;
+    gap: 20px;
     text-align: left;
     padding-top: 10px;
     text-wrap: balance;
