@@ -75,6 +75,10 @@ header h1 {
     text-wrap: balance;
 }
 
+.contact p {
+    text-wrap: balance;
+}
+
 .contact a {
     color: #3b3638;
 }
