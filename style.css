@@ -71,7 +71,7 @@ header h1 {
 
 .contact {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
     margin: 0 auto;
 }
@@ -122,6 +122,11 @@ header h1 {
     text-wrap: nowrap;
     white-space: nowrap;
     text-align: justify;
+}
+
+.thingsidid a {
+    color: #3b3638;
+    text-decoration: none;
 }
 
 .item2 {
