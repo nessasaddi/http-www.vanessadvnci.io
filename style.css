@@ -70,17 +70,20 @@ header h1 {
 }
 
 .contact {
-    display: inline-block;
+    display: flex;
+    gap: 20px;
     align-items: center;
     margin: 0 auto;
 }
 
 .contact p {
+    font-weight: 300;
     text-wrap: balance;
 }
 
 .contact a {
     color: #3b3638;
+    text-decoration: none;
 }
 
 .work {
