@@ -159,6 +159,23 @@ header h1 {
     gap: 20px;
 }
 
+.timmylinks-container {
+    display: none;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    animation: fadeInDown .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.timmylinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
 .copyright {
     text-align: center;
     margin-top: 50px;
