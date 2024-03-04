@@ -70,11 +70,10 @@ header h1 {
 }
 
 .contact {
-    display: flex;
-    gap: 20px;
-    text-align: left;
-    padding-top: 10px;
-    text-wrap: balance;
+    display: inline-block;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 20px;
 }
 
 .contact p {
@@ -86,7 +85,6 @@ header h1 {
 }
 
 .work {
-    text-align: left;
     padding-top: 10px;
     margin: 0 auto;
 }
