@@ -56,7 +56,7 @@ header h1 {
 .hashtagstyle {
     text-transform: lowercase;
     background-color: #3b3638f0;
-    color: #dad7ff;
+    color: #c4bfff;
     font-size: 13px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -85,7 +85,7 @@ header h1 {
 }
 
 .contact a {
-    color: #3b3638;
+    color: #3B3638;
     text-decoration: none;
 }
 
@@ -105,6 +105,7 @@ header h1 {
 .item:hover {
     background-color: #3b36381c;
     transition: .1s ease-in-out;
+    cursor: help;
 }
 
 .item p {
