@@ -196,3 +196,25 @@ header h1 {
     text-align: center;
     margin-top: 50px;
 }
+
+.tattoolinks-container {
+    display: none;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    animation: fadeInDown .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tattoolinks-container a {
+    text-decoration: none;
+    color: #3B3638;
+}
+
+.tattoolinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
