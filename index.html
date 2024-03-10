@@ -232,6 +232,11 @@
             var container = document.querySelector('.timmylinks-container');
             container.style.display = (container.style.display === 'none' || container.style.display === '') ? 'block' : 'none';
         }
+
+        function showTooltip() {
+            var tipElement = document.querySelector('.tip');
+            tipElement.classList.toggle('clicked');
+        }
     </script>
 </body>
 
