@@ -233,10 +233,14 @@
             container.style.display = (container.style.display === 'none' || container.style.display === '') ? 'block' : 'none';
         }
 
-        function showTooltip() {
-            var tipElement = document.querySelector('.tip');
-            tipElement.classList.toggle('clicked');
-        }
+        document.addEventListener("DOMContentLoaded", function() {
+            const questionIcon = document.querySelector(".question");
+            const tooltipText = document.querySelector(".tooltiptext");
+
+            questionIcon.addEventListener("click", function() {
+            tooltipText.style.display = tooltipText.style.display === "block" ? "none" : "block";
+            });
+        });
     </script>
 </body>
 
