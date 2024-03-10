@@ -56,7 +56,7 @@ header h1 {
 .hashtagstyle {
     text-transform: lowercase;
     background-color: #3b3638f0;
-    color: #c4bfff;
+    color: #bfc9ff;
     font-size: 13px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -90,15 +90,21 @@ header h1 {
 }
 
 .work {
-    padding-top: 10px;
+    padding-top: 0px;
     margin: 0 auto;
+}
+
+.workandinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 10px;
 }
 
 .item {
     background-color: #3b363811;
     padding: 10px;
     border-radius: 2px;
-    margin-top: 15px;
+    margin-bottom: 15px;
     animation: fadeIn 1s ease-in;
 }
 
@@ -218,3 +224,63 @@ header h1 {
     text-align: center;
     gap: 20px;
 }
+
+.tip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+  }
+
+  /* Tooltip text */
+  .tip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #74c84a90;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    top: 7px;
+    right: 160px;
+    transform: translateX(-50%);
+    transition: opacity 0.3s;
+    padding: 4px;
+  }
+
+  .tooltiptext p {
+    margin: 0;
+    line-height: 20px;
+    color: #3B3638;
+    text-wrap: nowrap;
+  }
+
+  /* Show the tooltip text when hovering over the tooltip container */
+  .tip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Bouncing animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .tip .tooltiptext {
+    animation: bounce 1s infinite;
+  }
+
+  .tip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px; 
+    border-width: 5px;
+    border-style: solid;
+    border-color: #74c84a90 transparent transparent transparent;
+  }
