@@ -164,7 +164,7 @@ header h1 {
     gap: 20px;
 }
 
-.links-container {
+.cklinks-container {
     display: none;
     margin: auto;
     padding: 20px;
@@ -181,6 +181,14 @@ header h1 {
     gap: 20px;
 }
 
+.timmylinks-container {
+    display: none;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    animation: fadeInDown .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 .timmylinks {
     display: flex;
@@ -195,7 +203,16 @@ header h1 {
     margin-top: 50px;
 }
 
-.links-container a {
+.tattoolinks-container {
+    display: none;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    animation: fadeInDown .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tattoolinks-container a {
     text-decoration: none;
     color: #3B3638;
 }
@@ -216,7 +233,7 @@ header h1 {
 
   /* Tooltip text */
   .tip .tooltiptext {
-    display: none;
+    visibility: hidden;
     width: 120px;
     background-color: #74c84a90;
     text-align: center;
