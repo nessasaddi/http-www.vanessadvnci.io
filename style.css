@@ -122,7 +122,7 @@ header h1 {
 .thingsidid {
     background-color: transparent;
     text-transform: lowercase;
-    border: 1px solid #ff8b56;
+    border: 1px solid #e16d37;
     color: #3b3638;
     font-size: 12px;
     font-family: 'Rubik', sans-serif;
@@ -233,7 +233,7 @@ header h1 {
 
   /* Tooltip text */
   .tip .tooltiptext {
-    visibility: hidden;
+    display: none;
     width: 120px;
     background-color: #74c84a90;
     text-align: center;
@@ -254,7 +254,7 @@ header h1 {
     text-wrap: nowrap;
   }
 
-  /* Show the tooltip text when hovering over the tooltip container */
+
   .tip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
@@ -271,7 +271,7 @@ header h1 {
   }
 
   .tip .tooltiptext {
-    animation: bounce 1s infinite;
+    animation: bounce .7s infinite;
   }
 
   .tip .tooltiptext::after {
