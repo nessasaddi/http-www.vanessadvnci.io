@@ -73,20 +73,34 @@ header h1 {
     text-wrap: balance;
 }
 
-.contact {
+.contactsection {
     display: flex;
-    gap: 20px;
-    align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
-.contact p {
-    text-wrap: balance;
+.marketingpitch a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #3B3638;
+    padding: 0;
 }
 
-.contact a {
-    color: #3B3638;
-    text-decoration: none;
+.notionbutton {
+    background-color: transparent;
+    text-transform: lowercase;
+    border: 1px solid #71c34b;
+    color: #3b3638;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    padding: 4px 8px 4px 8px;
+    border-radius: 3px;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
 }
 
 .work {
